@@ -1,6 +1,6 @@
 import React from 'react';
 export const Nav00DataSource = {
-  wrapper: { className: 'header0 home-page-wrapper' },
+  wrapper: { className: 'header0 home-page-wrapper le6v91eq5vd-editor_css' },
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
@@ -26,58 +26,28 @@ export const Nav00DataSource = {
             },
           ],
         },
-        subItem: [
-          {
-            name: 'sub0',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
+        subItem: null,
+      },
+      {
+        name: 'item~le85652zt1',
+        className: 'header0-item',
+        children: {
+          href: '#',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>公司简介</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
             },
-          },
-          {
-            name: 'sub1',
-            className: 'item-sub',
-            children: {
-              className: 'item-sub-item',
-              children: [
-                {
-                  name: 'image0',
-                  className: 'item-image',
-                  children:
-                    'https://gw.alipayobjects.com/zos/rmsportal/ruHbkzzMKShUpDYMEmHM.svg',
-                },
-                {
-                  name: 'title',
-                  className: 'item-title',
-                  children: 'Ant Design',
-                },
-                {
-                  name: 'content',
-                  className: 'item-content',
-                  children: '企业级 UI 设计体系',
-                },
-              ],
-            },
-          },
-        ],
+          ],
+        },
       },
       {
         name: 'item1',
@@ -88,10 +58,12 @@ export const Nav00DataSource = {
             {
               children: (
                 <span>
-                  <p>
-                    <span>关于景宇</span>
-                    <br />
-                  </p>
+                  <span>
+                    <p>
+                      <span>主营业务</span>
+                      <br />
+                    </p>
+                  </span>
                 </span>
               ),
               name: 'text',
@@ -142,7 +114,7 @@ export const Nav00DataSource = {
 };
 export const Banner00DataSource = {
   wrapper: { className: 'banner0 le437uflsf9-editor_css' },
-  textWrapper: { className: 'banner0-text-wrapper le5fvopxx3a-editor_css' },
+  textWrapper: { className: 'le5fvopxx3a-editor_css banner0-text-wrapper' },
   title: {
     className: 'banner0-title le5g7h0ftsb-editor_css',
     children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
@@ -160,7 +132,7 @@ export const Banner00DataSource = {
     ),
   },
   button: {
-    className: 'banner0-button le5hbe54f8-editor_css',
+    className: 'ant-btn-background-ghost banner0-button le5hbe54f8-editor_css',
     children: (
       <span>
         <span>
@@ -175,6 +147,74 @@ export const Banner00DataSource = {
     type: 'default',
     href: '',
     target: '',
+  },
+};
+export const Content130DataSource = {
+  OverPack: {
+    className: 'home-page-wrapper content13-wrapper le84t4ntzob-editor_css',
+    playScale: 0.3,
+  },
+  titleWrapper: {
+    className: 'title-wrapper le85gd7gs6q-editor_css',
+    children: [
+      {
+        name: 'image',
+        children:
+          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
+        className: 'title-image le84v19ggsn-editor_css',
+      },
+      {
+        name: 'title',
+        children: (
+          <span>
+            <span>
+              <p>公司简介</p>
+            </span>
+          </span>
+        ),
+        className: 'title-h1 le859mt32sb-editor_css',
+      },
+      {
+        name: 'content',
+        children: (
+          <span>
+            <span>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <p>
+                        &nbsp; &nbsp; &nbsp;
+                        &nbsp;上海景宇智能科技集团有限公司，原名“上海景域智能科技有限公司”，<b
+                        >
+                          隶属于中国旅游集团20强
+                        </b>，面向“元宇宙”进行了集团化更名升级，是文旅行业数字化升级领军企业，是文旅产业互联网标杆公司，是<b
+                        >
+                          智慧文旅综合解决方案提供商
+                        </b>，是国内落地超过三个省的“省级官方智慧文旅”和多个5A景区“数字化创新运营”承建方。
+                      </p>
+                      <p>
+                        <br />
+                      </p>
+                      <p>
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+                        基于多年数字化积累，公司业务涉及云计算装备技术服务；人工智能基础资源与技术平台；智能控制系统集成；智能车载设备销售；物联网设备销售；智能家庭消费设备销售；可穿戴智能设备销售；移动终端设备销售；通讯设备销售等方面。
+                      </p>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
+          </span>
+        ),
+        className: 'title-content le84t8nzqhn-editor_css',
+      },
+      {
+        name: 'content2',
+        children: '现场问诊，为你答疑解难',
+        className: 'title-content le854yiiik9-editor_css',
+      },
+    ],
   },
 };
 export const Content00DataSource = {
@@ -666,11 +706,273 @@ export const Feature70DataSource = {
     ],
   },
 };
-export const Footer00DataSource = {
-  wrapper: { className: 'home-page-wrapper footer0-wrapper' },
-  OverPack: { className: 'home-page footer0', playScale: 0.05 },
+export const Content50DataSource = {
+  wrapper: {
+    className: 'home-page-wrapper content5-wrapper le8cgfxaf6g-editor_css',
+  },
+  page: { className: 'home-page content5 le89vwlre3-editor_css' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper le8acz3j1jd-editor_css',
+    children: [
+      {
+        name: 'title',
+        children: (
+          <span>
+            <span>
+              <p>资质证书</p>
+            </span>
+          </span>
+        ),
+        className: 'title-h1',
+      },
+      {
+        name: 'content',
+        className: 'title-content le8absi3i4f-editor_css',
+        children: (
+          <span>
+            <span>
+              <span>
+                <p>
+                  &nbsp; &nbsp; &nbsp; &nbsp;
+                  公司掌握核心技术和自主知识产权，累计申请各类专利8项、软件著作权19项，产品全方位覆盖智慧旅游的营销、管理和服务领域；与政府、景区、旅游集团、旅游目的地协同合作，引领并推动产业升级和服务创新。
+                </p>
+              </span>
+            </span>
+          </span>
+        ),
+      },
+    ],
+  },
+  block: {
+    className: 'content5-img-wrapper le8cg1iqwjc-editor_css',
+    gutter: 16,
+    children: [
+      {
+        name: 'block0',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          },
+          content: { children: 'Ant Design' },
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+          },
+          content: { children: 'Ant Motion' },
+        },
+      },
+      {
+        name: 'block2',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          },
+          content: { children: 'Ant Design' },
+        },
+      },
+      {
+        name: 'block3',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+          },
+          content: { children: 'Ant Motion' },
+        },
+      },
+      {
+        name: 'block4',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          },
+          content: { children: 'Ant Design' },
+        },
+      },
+      {
+        name: 'block5',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+          },
+          content: { children: 'Ant Motion' },
+        },
+      },
+      {
+        name: 'block6',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
+          },
+          content: { children: 'Ant Design' },
+        },
+      },
+      {
+        name: 'block7',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children:
+              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
+          },
+          content: { children: 'Ant Motion' },
+        },
+      },
+    ],
+  },
+};
+export const Footer11DataSource = {
+  wrapper: { className: 'home-page-wrapper footer1-wrapper' },
+  OverPack: { className: 'footer1 le6yqz53csp-editor_css', playScale: 0.2 },
+  block: {
+    className: 'home-page le6yo3ugnvd-editor_css',
+    gutter: 0,
+    children: [
+      {
+        name: 'block0',
+        xs: 24,
+        md: 6,
+        className: 'block le6yn240gre-editor_css',
+        title: {
+          className: 'logo',
+          children:
+            'https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg',
+        },
+        childWrapper: {
+          className: 'slogan',
+          children: [
+            {
+              name: 'content0',
+              children: 'Animation specification and components of Ant Design.',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        xs: 24,
+        md: 6,
+        className: 'block le6ynwc7r4-editor_css',
+        title: {
+          children: (
+            <span>
+              <p>上海景宇宙智能科技集团有限公司</p>
+            </span>
+          ),
+          className: 'le6yncxbqr-editor_css',
+        },
+        childWrapper: {
+          children: [
+            {
+              name: 'link0',
+              href: '#',
+              children: (
+                <span>
+                  <p>联系电话：021-60561616</p>
+                </span>
+              ),
+            },
+            {
+              name: 'link1',
+              href: '#',
+              children: (
+                <span>
+                  <p>电子邮箱：mkt@joyuai.com</p>
+                </span>
+              ),
+            },
+            {
+              name: 'link2',
+              href: '#',
+              children: (
+                <span>
+                  <p>合作热线：021-51212088-3335</p>
+                </span>
+              ),
+            },
+            {
+              name: 'link3',
+              href: '#',
+              children: '参考指南',
+              className: 'le6yqfb94o-editor_css',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        xs: 24,
+        md: 6,
+        className: 'block le6ynaktnuq-editor_css',
+        title: { children: '关于' },
+        childWrapper: {
+          children: [
+            { href: '#', name: 'link0', children: 'FAQ' },
+            { href: '#', name: 'link1', children: '联系我们' },
+          ],
+        },
+      },
+      {
+        name: 'block3',
+        xs: 24,
+        md: 6,
+        className: 'block le6yn85zvr6-editor_css',
+        title: { children: '资源' },
+        childWrapper: {
+          children: [
+            { href: '#', name: 'link0', children: 'Ant Design' },
+            { href: '#', name: 'link1', children: 'Ant Motion' },
+          ],
+        },
+      },
+    ],
+  },
+  copyrightWrapper: { className: 'copyright-wrapper' },
+  copyrightPage: { className: 'home-page' },
   copyright: {
-    className: 'copyright',
+    className: 'copyright le6ytz8kqzp-editor_css',
     children: (
       <span>
         Copyright©2022, www.joyuai.com ｜ 沪ICP备19031977号-1<br />
