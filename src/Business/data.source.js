@@ -20,7 +20,7 @@ export const Nav00DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>首页</p>
+                    <p>首页&nbsp;</p>
                   </span>
                 </span>
               ),
@@ -30,11 +30,10 @@ export const Nav00DataSource = {
         },
       },
       {
-        name: 'item0',
+        name: 'item2',
         className: 'header0-item',
         children: {
-          href:
-            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63eb5e95e305c074924ace59',
+          href: 'https://openyou.life/profile.html',
           children: [
             {
               children: (
@@ -48,14 +47,12 @@ export const Nav00DataSource = {
             },
           ],
         },
-        subItem: null,
       },
       {
-        name: 'item2',
+        name: 'item0',
         className: 'header0-item',
         children: {
-          href:
-            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63f47a8612cdee268e57815e',
+          href: 'https://openyou.life/business.html',
           children: [
             {
               children: (
@@ -69,13 +66,13 @@ export const Nav00DataSource = {
             },
           ],
         },
+        subItem: null,
       },
       {
         name: 'item3',
         className: 'header0-item',
         children: {
-          href:
-            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63f5738ed8e01c412d4825e3',
+          href: 'https://openyou.life/advantage.html',
           children: [
             {
               children: (
@@ -91,20 +88,17 @@ export const Nav00DataSource = {
         },
       },
       {
-        name: 'item~lef0n07g6g',
+        name: 'item~lee3ewrtai',
         className: 'header0-item',
         children: {
-          href:
-            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63f57efd12cdee268e58e5e2',
+          href: 'https://openyou.life/contact.html',
           children: [
             {
               children: (
                 <span>
                   <span>
                     <span>
-                      <span>
-                        <p>联系景宇</p>
-                      </span>
+                      <p>联系景宇</p>
                     </span>
                   </span>
                 </span>
@@ -118,51 +112,134 @@ export const Nav00DataSource = {
   },
   mobileMenu: { className: 'header0-mobile-menu' },
 };
-export const Feature10DataSource = {
-  wrapper: {
-    className: 'home-page-wrapper content1-wrapper lef0v4v6ch-editor_css',
-  },
-  OverPack: { className: 'home-page content1', playScale: 0.3 },
-  imgWrapper: {
-    className: 'content1-img lef0ryty49-editor_css',
-    md: 10,
-    xs: 24,
-  },
-  img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
-  textWrapper: {
-    className: 'content1-text lef0r64pofm-editor_css',
-    md: 14,
-    xs: 24,
-  },
-  title: {
-    className: 'content1-title lef0srijx9m-editor_css',
-    children: (
-      <span>
-        <span>
-          <p>上海景宇宙智能科技集团有限公司</p>
-        </span>
-      </span>
-    ),
-  },
-  content: {
-    className: 'content1-content lef0qbuxmd-editor_css',
-    children: (
-      <span>
-        <span>
+export const Feature00DataSource = {
+  wrapper: { className: 'home-page-wrapper content0-wrapper' },
+  page: { className: 'home-page content0' },
+  OverPack: { playScale: 0.3, className: '' },
+  titleWrapper: {
+    className: 'title-wrapper',
+    children: [
+      {
+        name: 'title',
+        children: (
           <span>
-            <span>
-              <p>
-                上海景宇智能科技集团有限公司，原名“上海景域智能科技有限公司”，隶属于中国旅游集团20强，面向“元宇宙”进行了集团化更名升级，是文旅行业数字化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，是国内落地超过三个省的“省级官方智慧文旅”和多个5A景区“数字化创新运营”承建方。
-              </p>
-              <p>
-                {' '}
-                基于多年数字化积累，公司业务涉及云计算装备技术服务；人工智能基础资源与技术平台；智能控制系统集成；智能车载设备销售；物联网设备销售；智能家庭消费设备销售；可穿戴智能设备销售；移动终端设备销售；通讯设备销售等方面。
-              </p>
-            </span>
+            <p>主营业务</p>
           </span>
-        </span>
-      </span>
-    ),
+        ),
+      },
+    ],
+  },
+  childWrapper: {
+    className: 'content0-block-wrapper',
+    children: [
+      {
+        name: 'block0',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children: 'https://openyou.life/joyuai/icon_gov_nor_120.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <p>政府文旅</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <p>
+                    各级目的地政府智慧文旅及数字化转型（省级文旅厅/市级文旅局/区县文旅局）
+                  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block1',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children: 'https://openyou.life/joyuai/icon_com_nor_120.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <p>数字企业</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <p>
+                    大型文旅企业集团多业态整合数字化升级（旅投/文投集团/文旅综合集团/酒店集团）
+                  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block2',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children: 'https://openyou.life/joyuai/icon_space_nor_120.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <p>数字空间</p>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <p>
+                    泛文旅下线空间新技术新体验应用（景区/乐园/公园/文化/美术/科技馆/博物馆/图书馆）
+                  </p>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+    ],
   },
 };
 export const Footer10DataSource = {
@@ -176,7 +253,7 @@ export const Footer10DataSource = {
         name: 'block0',
         xs: 24,
         md: 6,
-        className: 'block lef10cftr1-editor_css',
+        className: 'block lef1eu1cjt6-editor_css',
         title: {
           className: 'logo',
           children:
@@ -200,10 +277,10 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <p>上海景宇宙智能科技集团有限公司</p>
+              <p>上海景宇智能科技集团有限公司</p>
             </span>
           ),
-          className: 'lef3kfr843g-editor_css',
+          className: 'lef1hh63x3-editor_css',
         },
         childWrapper: {
           children: [
@@ -238,7 +315,7 @@ export const Footer10DataSource = {
               name: 'link3',
               href: '#',
               children: '参考指南',
-              className: 'lef3leoop1r-editor_css',
+              className: 'lef1jzhlzb-editor_css',
             },
           ],
         },
@@ -247,7 +324,7 @@ export const Footer10DataSource = {
         name: 'block2',
         xs: 24,
         md: 6,
-        className: 'block lef3gr6iy2p-editor_css',
+        className: 'block lef1hczz4xu-editor_css',
         title: { children: '关于' },
         childWrapper: {
           children: [
@@ -260,7 +337,20 @@ export const Footer10DataSource = {
         name: 'block3',
         xs: 24,
         md: 6,
-        className: 'block lef3gi5b85b-editor_css',
+        className: 'block lef1hfljpm-editor_css',
+        title: { children: '资源' },
+        childWrapper: {
+          children: [
+            { href: '#', name: 'link0', children: 'Ant Design' },
+            { href: '#', name: 'link1', children: 'Ant Motion' },
+          ],
+        },
+      },
+      {
+        name: 'block~lefbz2pe87u',
+        xs: 24,
+        md: 6,
+        className: 'block lef1hfljpm-editor_css',
         title: { children: '资源' },
         childWrapper: {
           children: [

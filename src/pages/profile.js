@@ -1,4 +1,4 @@
-import Profile from '../CompanyProfile';
+import Profile from '../Profile';
 
 export default function () {
   return (

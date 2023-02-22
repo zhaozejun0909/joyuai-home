@@ -32,8 +32,7 @@ export const Nav00DataSource = {
         name: 'item~le85652zt1',
         className: 'header0-item',
         children: {
-          href:
-            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63eb5e95e305c074924ace59',
+          href: 'https://openyou.life/profile.html',
           children: [
             {
               children: (
@@ -55,8 +54,7 @@ export const Nav00DataSource = {
         name: 'item1',
         className: 'header0-item',
         children: {
-          href:
-            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63f47a8612cdee268e57815e',
+          href: 'https://openyou.life/business.html',
           children: [
             {
               children: (
@@ -79,8 +77,7 @@ export const Nav00DataSource = {
         name: 'item2',
         className: 'header0-item',
         children: {
-          href:
-            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63f5738ed8e01c412d4825e3',
+          href: 'https://openyou.life/advantage.html',
           children: [
             {
               children: (
@@ -97,8 +94,7 @@ export const Nav00DataSource = {
         name: 'item3',
         className: 'header0-item',
         children: {
-          href:
-            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63f57efd12cdee268e58e5e2',
+          href: 'https://openyou.life/contact.html',
           children: [
             {
               children: (
