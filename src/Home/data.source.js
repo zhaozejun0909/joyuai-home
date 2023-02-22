@@ -32,7 +32,8 @@ export const Nav00DataSource = {
         name: 'item~le85652zt1',
         className: 'header0-item',
         children: {
-          href: '#',
+          href:
+            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63eb5e95e305c074924ace59',
           children: [
             {
               children: (
@@ -47,13 +48,15 @@ export const Nav00DataSource = {
               name: 'text',
             },
           ],
+          target: '',
         },
       },
       {
         name: 'item1',
         className: 'header0-item',
         children: {
-          href: '#',
+          href:
+            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63f47a8612cdee268e57815e',
           children: [
             {
               children: (
@@ -76,7 +79,8 @@ export const Nav00DataSource = {
         name: 'item2',
         className: 'header0-item',
         children: {
-          href: '#',
+          href:
+            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63f5738ed8e01c412d4825e3',
           children: [
             {
               children: (
@@ -93,7 +97,8 @@ export const Nav00DataSource = {
         name: 'item3',
         className: 'header0-item',
         children: {
-          href: '#',
+          href:
+            'https://ant-design-landing.gitee.io/edit/index-cn#uid=63f57efd12cdee268e58e5e2',
           children: [
             {
               children: (
@@ -114,7 +119,7 @@ export const Nav00DataSource = {
 };
 export const Banner00DataSource = {
   wrapper: { className: 'banner0 le437uflsf9-editor_css' },
-  textWrapper: { className: 'le5fvopxx3a-editor_css banner0-text-wrapper' },
+  textWrapper: { className: 'banner0-text-wrapper le5fvopxx3a-editor_css' },
   title: {
     className: 'banner0-title le5g7h0ftsb-editor_css',
     children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
@@ -183,23 +188,25 @@ export const Content130DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>
-                        &nbsp; &nbsp; &nbsp;
-                        &nbsp;上海景宇智能科技集团有限公司，原名“上海景域智能科技有限公司”，<b
-                        >
-                          隶属于中国旅游集团20强
-                        </b>，面向“元宇宙”进行了集团化更名升级，是文旅行业数字化升级领军企业，是文旅产业互联网标杆公司，是<b
-                        >
-                          智慧文旅综合解决方案提供商
-                        </b>，是国内落地超过三个省的“省级官方智慧文旅”和多个5A景区“数字化创新运营”承建方。
-                      </p>
-                      <p>
-                        <br />
-                      </p>
-                      <p>
-                        &nbsp; &nbsp; &nbsp; &nbsp;
-                        基于多年数字化积累，公司业务涉及云计算装备技术服务；人工智能基础资源与技术平台；智能控制系统集成；智能车载设备销售；物联网设备销售；智能家庭消费设备销售；可穿戴智能设备销售；移动终端设备销售；通讯设备销售等方面。
-                      </p>
+                      <span>
+                        <p>
+                          &nbsp; &nbsp; &nbsp;
+                          &nbsp;上海景宇智能科技集团有限公司，原名“上海景域智能科技有限公司”，<b
+                          >
+                            隶属于中国旅游集团20强
+                          </b>，面向“元宇宙”进行了集团化更名升级，是文旅行业数字化升级领军企业，是文旅产业互联网标杆公司，是<b
+                          >
+                            智慧文旅综合解决方案提供商
+                          </b>，是国内落地超过三个省的“省级官方智慧文旅”和多个5A景区“数字化创新运营”承建方。
+                        </p>
+                        <p>
+                          <br />
+                        </p>
+                        <p>
+                          &nbsp; &nbsp; &nbsp; &nbsp;
+                          基于多年数字化积累，公司业务涉及云计算装备技术服务；人工智能基础资源与技术平台；智能控制系统集成；智能车载设备销售；物联网设备销售；智能家庭消费设备销售；可穿戴智能设备销售；移动终端设备销售；通讯设备销售等方面。
+                        </p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -251,15 +258,16 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/WBnVOjtIlGWbzyQivuyq.png',
+              children: 'https://openyou.life/joyuai/icon_gov_nor_120.png',
             },
             {
               name: 'title',
               className: 'content0-block-title',
               children: (
                 <span>
-                  <p>政府文旅</p>
+                  <span>
+                    <p>政府文旅</p>
+                  </span>
                 </span>
               ),
             },
@@ -267,9 +275,13 @@ export const Content00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>
-                    各级目的地政府智慧文旅及数字化转型（省级文旅厅/市级文旅局/区县文旅局）
-                  </p>
+                  <span>
+                    <span>
+                      <p>
+                        各级目的地政府智慧文旅及数字化转型（省级文旅厅/市级文旅局/区县文旅局）
+                      </p>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -287,8 +299,7 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/YPMsLQuCEXtuEkmXTTdk.png',
+              children: 'https://openyou.life/joyuai/icon_com_nor_120.png',
             },
             {
               name: 'title',
@@ -303,9 +314,11 @@ export const Content00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>
-                    大型文旅企业集团多业态整合数字化升级（旅投/文投集团/文旅综合集团/酒店集团）
-                  </p>
+                  <span>
+                    <p>
+                      大型文旅企业集团多业态整合数字化升级（旅投/文投集团/文旅综合集团/酒店集团）
+                    </p>
+                  </span>
                 </span>
               ),
             },
@@ -323,8 +336,7 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children:
-                'https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png',
+              children: 'https://openyou.life/joyuai/icon_space_nor_120.png',
             },
             {
               name: 'title',
@@ -339,9 +351,11 @@ export const Content00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>
-                    泛文旅下线空间新技术新体验应用（景区/乐园/公园/文化/美术/科技馆/博物馆/图书馆）
-                  </p>
+                  <span>
+                    <p>
+                      泛文旅下线空间新技术新体验应用（景区/乐园/公园/文化/美术/科技馆/博物馆/图书馆）
+                    </p>
+                  </span>
                 </span>
               ),
             },
@@ -366,7 +380,9 @@ export const Feature70DataSource = {
             <span>
               <span>
                 <span>
-                  <p>服务与优势</p>
+                  <span>
+                    <p>服务与优势</p>
+                  </span>
                 </span>
               </span>
             </span>
@@ -378,7 +394,9 @@ export const Feature70DataSource = {
         className: 'feature7-title-content',
         children: (
           <span>
-            <p>科技助力中国文旅产业数字化升级</p>
+            <span>
+              <p>科技助力中国文旅产业数字化升级</p>
+            </span>
           </span>
         ),
       },
@@ -407,9 +425,11 @@ export const Feature70DataSource = {
               className: 'feature7-block-title le6gryvqsbh-editor_css',
               children: (
                 <span>
-                  <p>
-                    “目的地”一站式解决方案<br />
-                  </p>
+                  <span>
+                    <p>
+                      “目的地”一站式解决方案<br />
+                    </p>
+                  </span>
                 </span>
               ),
             },
@@ -418,9 +438,11 @@ export const Feature70DataSource = {
               className: 'feature7-block-content',
               children: (
                 <span>
-                  <p>
-                    打造“目的地数字化服务”的金字招牌，协力推动目的地文旅供给侧改革，提高目的地文旅营销效率和服务能级。
-                  </p>
+                  <span>
+                    <p>
+                      打造“目的地数字化服务”的金字招牌，协力推动目的地文旅供给侧改革，提高目的地文旅营销效率和服务能级。
+                    </p>
+                  </span>
                 </span>
               ),
             },
@@ -446,7 +468,9 @@ export const Feature70DataSource = {
               className: 'feature7-block-title le6gsk3qvgq-editor_css',
               children: (
                 <span>
-                  <p>文旅资源集散平台解决方案</p>
+                  <span>
+                    <p>文旅资源集散平台解决方案</p>
+                  </span>
                 </span>
               ),
             },
@@ -456,12 +480,14 @@ export const Feature70DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>
-                      集约化平台化智能化业务数字化平台，集中整合区域全品类交易及供销系统。
-                    </p>
-                    <p>
-                      <br />
-                    </p>
+                    <span>
+                      <p>
+                        集约化平台化智能化业务数字化平台，集中整合区域全品类交易及供销系统。
+                      </p>
+                      <p>
+                        <br />
+                      </p>
+                    </span>
                   </span>
                 </span>
               ),
@@ -488,7 +514,9 @@ export const Feature70DataSource = {
               className: 'feature7-block-title le6gsxnhihq-editor_css',
               children: (
                 <span>
-                  <p>全域文旅场所预约解决方案</p>
+                  <span>
+                    <p>全域文旅场所预约解决方案</p>
+                  </span>
                 </span>
               ),
             },
@@ -497,9 +525,11 @@ export const Feature70DataSource = {
               className: 'feature7-block-content',
               children: (
                 <span>
-                  <p>
-                    面向省、市、县各文旅场所一体化提升整体互联网服务水平，不依赖场所信息化水平，实现所有场所全面覆盖。
-                  </p>
+                  <span>
+                    <p>
+                      面向省、市、县各文旅场所一体化提升整体互联网服务水平，不依赖场所信息化水平，实现所有场所全面覆盖。
+                    </p>
+                  </span>
                 </span>
               ),
             },
@@ -525,7 +555,9 @@ export const Feature70DataSource = {
               className: 'feature7-block-title le6gszyb088-editor_css',
               children: (
                 <span>
-                  <p>跨平台文旅数字营销服务</p>
+                  <span>
+                    <p>跨平台文旅数字营销服务</p>
+                  </span>
                 </span>
               ),
             },
@@ -534,15 +566,19 @@ export const Feature70DataSource = {
               className: 'feature7-block-content',
               children: (
                 <span>
-                  <p>
-                    多个省级文旅平台，互为目的地、互为客源地，相互推介，流量赋能
-                  </p>
-                  <p>
-                    <br />
-                  </p>
-                  <p>
-                    <br />
-                  </p>
+                  <span>
+                    <span>
+                      <p>
+                        多个省级文旅平台，互为目的地、互为客源地，相互推介，流量赋能
+                      </p>
+                      <p>
+                        <br />
+                      </p>
+                      <p>
+                        <br />
+                      </p>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -568,7 +604,9 @@ export const Feature70DataSource = {
               className: 'feature7-block-title le6gu0eplv8-editor_css',
               children: (
                 <span>
-                  <p>文旅全产业链</p>
+                  <span>
+                    <p>文旅全产业链</p>
+                  </span>
                 </span>
               ),
             },
@@ -579,9 +617,11 @@ export const Feature70DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>
-                        所属集团深耕旅游业近20年，连续10年入选中国旅游集团20强，覆盖文旅全产业链，包括规划、营销、目的地运营、投资、智慧旅游等
-                      </p>
+                      <span>
+                        <p>
+                          所属集团深耕旅游业近20年，连续10年入选中国旅游集团20强，覆盖文旅全产业链，包括规划、营销、目的地运营、投资、智慧旅游等
+                        </p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -609,7 +649,9 @@ export const Feature70DataSource = {
               className: 'feature7-block-title le6gtwrr3qs-editor_css',
               children: (
                 <span>
-                  <p>头部OTA经验</p>
+                  <span>
+                    <p>头部OTA经验</p>
+                  </span>
                 </span>
               ),
             },
@@ -619,9 +661,11 @@ export const Feature70DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>
-                      超过2亿用户规模、超过10万合作商家、超过9亿下载、遍及全国110子公司高频交易系统承载和运营经验。
-                    </p>
+                    <span>
+                      <p>
+                        超过2亿用户规模、超过10万合作商家、超过9亿下载、遍及全国110子公司高频交易系统承载和运营经验。
+                      </p>
+                    </span>
                   </span>
                 </span>
               ),
@@ -648,7 +692,9 @@ export const Feature70DataSource = {
               className: 'feature7-block-title le6gtd4dzj-editor_css',
               children: (
                 <span>
-                  <p>省级平台经验</p>
+                  <span>
+                    <p>省级平台经验</p>
+                  </span>
                 </span>
               ),
             },
@@ -657,9 +703,11 @@ export const Feature70DataSource = {
               className: 'feature7-block-content',
               children: (
                 <span>
-                  <p>
-                    已经成功实施上海、山西、湖北等省级智慧文旅平台项目，投入经济效果良好，也更有省级平台项目效果把控经验、冲刺经验。
-                  </p>
+                  <span>
+                    <p>
+                      已经成功实施上海、山西、湖北等省级智慧文旅平台项目，投入经济效果良好，也更有省级平台项目效果把控经验、冲刺经验。
+                    </p>
+                  </span>
                 </span>
               ),
             },
@@ -685,7 +733,9 @@ export const Feature70DataSource = {
               className: 'feature7-block-title le6gtimcsra-editor_css',
               children: (
                 <span>
-                  <p>5A景区实施标杆</p>
+                  <span>
+                    <p>5A景区实施标杆</p>
+                  </span>
                 </span>
               ),
             },
@@ -694,9 +744,11 @@ export const Feature70DataSource = {
               className: 'feature7-block-content',
               children: (
                 <span>
-                  <p>
-                    以5A景区天山天池为基础，成功实施大型文旅目的地数字化转型，大幅提升文旅目的地营收规模，实现A股ST摘帽。
-                  </p>
+                  <span>
+                    <p>
+                      以5A景区天山天池为基础，成功实施大型文旅目的地数字化转型，大幅提升文旅目的地营收规模，实现A股ST摘帽。
+                    </p>
+                  </span>
                 </span>
               ),
             },
@@ -898,7 +950,13 @@ export const Footer11DataSource = {
         title: {
           children: (
             <span>
-              <p>上海景宇宙智能科技集团有限公司</p>
+              <span>
+                <span>
+                  <span>
+                    <p>上海景宇宙智能科技集团有限公司</p>
+                  </span>
+                </span>
+              </span>
             </span>
           ),
           className: 'le6yncxbqr-editor_css',
@@ -910,7 +968,15 @@ export const Footer11DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>联系电话：021-60561616</p>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>联系电话：021-60561616</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -919,7 +985,15 @@ export const Footer11DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>电子邮箱：mkt@joyuai.com</p>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>电子邮箱：mkt@joyuai.com</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -928,7 +1002,15 @@ export const Footer11DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>合作热线：021-51212088-3335</p>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>合作热线：021-51212088-3335</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -975,7 +1057,11 @@ export const Footer11DataSource = {
     className: 'copyright le6ytz8kqzp-editor_css',
     children: (
       <span>
-        Copyright©2022, www.joyuai.com ｜ 沪ICP备19031977号-1<br />
+        <span>
+          <span>
+            Copyright©2022, www.joyuai.com ｜ 沪ICP备19031977号-1<br />
+          </span>
+        </span>
       </span>
     ),
   },
