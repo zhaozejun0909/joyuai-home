@@ -107,7 +107,10 @@ export const Feature10DataSource = {
   wrapper: {
     className: 'home-page-wrapper content1-wrapper lef2j7t1ukh-editor_css',
   },
-  OverPack: { className: 'home-page content1', playScale: 0.3 },
+  OverPack: {
+    className: 'home-page content1 lefhbajv6f-editor_css',
+    playScale: 0.3,
+  },
   imgWrapper: {
     className: 'content1-img lef2ju11g8-editor_css',
     md: 10,
@@ -131,7 +134,7 @@ export const Feature10DataSource = {
     ),
   },
   content: {
-    className: 'content1-content',
+    className: 'content1-content lefhbkfyamj-editor_css',
     children: (
       <span>
         <p>联系电话：021-60561616</p>
@@ -149,7 +152,7 @@ export const Footer01DataSource = {
   wrapper: { className: 'home-page-wrapper footer0-wrapper' },
   OverPack: { className: 'home-page footer0', playScale: 0.05 },
   copyright: {
-    className: 'copyright',
+    className: 'copyright lefhbrjeb8p-editor_css',
     children: (
       <span>
         Copyright©2022, www.joyuai.com ｜ 沪ICP备19031977号-1<br />

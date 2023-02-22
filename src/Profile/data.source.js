@@ -195,7 +195,7 @@ export const Footer10DataSource = {
         name: 'block1',
         xs: 24,
         md: 6,
-        className: 'block',
+        className: 'block lefgbyyasn-editor_css',
         title: {
           children: (
             <span>
@@ -232,6 +232,7 @@ export const Footer10DataSource = {
                   <p>合作热线：021-51212088-3335</p>
                 </span>
               ),
+              className: 'lefgalihfqd-editor_css',
             },
             {
               name: 'link3',

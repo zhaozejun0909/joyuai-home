@@ -126,7 +126,7 @@ export const Feature70DataSource = {
       },
       {
         name: 'content',
-        className: 'feature7-title-content',
+        className: 'feature7-title-content lefhr8axz-editor_css',
         children: (
           <span>
             <p>科技助力中国文旅产业数字化升级</p>
@@ -560,11 +560,10 @@ export const Footer10DataSource = {
   copyrightWrapper: { className: 'copyright-wrapper' },
   copyrightPage: { className: 'home-page' },
   copyright: {
-    className: 'copyright',
+    className: 'copyright lefhcgmys6q-editor_css',
     children: (
       <span>
-        ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
-        Reserved
+        Copyright©2022, www.joyuai.com ｜ 沪ICP备19031977号-1<br />
       </span>
     ),
   },
