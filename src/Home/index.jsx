@@ -8,7 +8,6 @@ import Banner0 from './Banner0';
 import Content13 from './Content13';
 import Content0 from './Content0';
 import Feature7 from './Feature7';
-import Content5 from './Content5';
 import Footer1 from './Footer1';
 import Point from './Point';
 import {
@@ -17,7 +16,7 @@ import {
   Content130DataSource,
   Content00DataSource,
   Feature70DataSource,
-  Content50DataSource,
+  Feature71DataSource,
   Footer11DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -41,7 +40,7 @@ export default class Home extends React.Component {
   componentDidMount() {
     /* 如果不是 dva 2.0 请使用以下代码
     // 实现整屏滚动
-    scrollScreen.init({ location: ['Banner0_0', 'Content13_0', 'Content0_0', 'Feature7_0', 'Content5_0', 'Footer1_1'] });
+    scrollScreen.init({ location: ['Banner0_0', 'Content13_0', 'Content0_0', 'Feature7_0', 'Feature7_1', 'Footer1_1'] });
     */
     // 适配手机屏幕;
     enquireScreen((b) => {
@@ -62,7 +61,7 @@ export default class Home extends React.Component {
             'Content13_0',
             'Content0_0',
             'Feature7_0',
-            'Content5_0',
+            'Feature7_1',
             'Footer1_1',
           ],
         });
@@ -103,10 +102,10 @@ export default class Home extends React.Component {
         dataSource={Feature70DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content5
-        id="Content5_0"
-        key="Content5_0"
-        dataSource={Content50DataSource}
+      <Feature7
+        id="Feature7_1"
+        key="Feature7_1"
+        dataSource={Feature71DataSource}
         isMobile={this.state.isMobile}
       />,
       <Footer1
@@ -123,7 +122,7 @@ export default class Home extends React.Component {
           'Content13_0',
           'Content0_0',
           'Feature7_0',
-          'Content5_0',
+          'Feature7_1',
           'Footer1_1',
         ]}
       />,

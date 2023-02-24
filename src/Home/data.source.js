@@ -29,17 +29,20 @@ export const Nav00DataSource = {
         subItem: null,
       },
       {
-        name: 'item~le85652zt1',
+        name: 'item1',
         className: 'header0-item',
         children: {
-          href: 'https://openyou.life/profile.html',
+          href: '/case.html',
           children: [
             {
               children: (
                 <span>
                   <span>
                     <span>
-                      <p>公司简介</p>
+                      <p>
+                        <span>成功案例</span>
+                        <br />
+                      </p>
                     </span>
                   </span>
                 </span>
@@ -51,50 +54,10 @@ export const Nav00DataSource = {
         },
       },
       {
-        name: 'item1',
-        className: 'header0-item',
-        children: {
-          href: 'https://openyou.life/business.html',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <p>
-                      <span>主营业务</span>
-                      <br />
-                    </p>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-          target: '',
-        },
-      },
-      {
-        name: 'item2',
-        className: 'header0-item',
-        children: {
-          href: 'https://openyou.life/advantage.html',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>服务与优势</p>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
         name: 'item3',
         className: 'header0-item',
         children: {
-          href: 'https://openyou.life/contact.html',
+          href: '/contact.html',
           children: [
             {
               children: (
@@ -185,23 +148,51 @@ export const Content130DataSource = {
                   <span>
                     <span>
                       <span>
-                        <p>
-                          &nbsp; &nbsp; &nbsp;
-                          &nbsp;上海景宇智能科技集团有限公司，原名“上海景域智能科技有限公司”，<b
-                          >
-                            隶属于中国旅游集团20强
-                          </b>，面向“元宇宙”进行了集团化更名升级，是文旅行业数字化升级领军企业，是文旅产业互联网标杆公司，是<b
-                          >
-                            智慧文旅综合解决方案提供商
-                          </b>，是国内落地超过三个省的“省级官方智慧文旅”和多个5A景区“数字化创新运营”承建方。
-                        </p>
-                        <p>
-                          <br />
-                        </p>
-                        <p>
-                          &nbsp; &nbsp; &nbsp; &nbsp;
-                          基于多年数字化积累，公司业务涉及云计算装备技术服务；人工智能基础资源与技术平台；智能控制系统集成；智能车载设备销售；物联网设备销售；智能家庭消费设备销售；可穿戴智能设备销售；移动终端设备销售；通讯设备销售等方面。
-                        </p>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <span>
+                                      <span>
+                                        <span>
+                                          <span>
+                                            <span>
+                                              <span>
+                                                <p>
+                                                  <b>
+                                                    &nbsp; &nbsp; &nbsp; &nbsp;
+                                                    上海景宇智能科技集团有限公司，简称“景宇智能”
+                                                  </b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
+                                                </p>
+                                                <p>
+                                                  <span>
+                                                    &nbsp; &nbsp; &nbsp;
+                                                    &nbsp;原名“上海景域智能科技有限公司”，
+                                                  </span>
+                                                  <b>
+                                                    隶属于中国旅游20强上海景域集团
+                                                  </b>
+                                                  <span>
+                                                    ，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，<b
+                                                    >
+                                                      是国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
+                                                    </b>
+                                                  </span>
+                                                </p>
+                                              </span>
+                                            </span>
+                                          </span>
+                                        </span>
+                                      </span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
                       </span>
                     </span>
                   </span>
@@ -362,7 +353,9 @@ export const Content00DataSource = {
   },
 };
 export const Feature70DataSource = {
-  wrapper: { className: 'home-page-wrapper feature7-wrapper' },
+  wrapper: {
+    className: 'home-page-wrapper feature7-wrapper lefi9bwckm-editor_css',
+  },
   page: { className: 'home-page feature7' },
   OverPack: { playScale: 0.3 },
   titleWrapper: {
@@ -411,12 +404,6 @@ export const Feature70DataSource = {
           className: 'feature7-block-group',
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image le6grerd7u8-editor_css',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
               name: 'title',
               className: 'feature7-block-title le6gryvqsbh-editor_css',
               children: (
@@ -454,12 +441,6 @@ export const Feature70DataSource = {
           className: 'feature7-block-group',
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image le6gskpuc8-editor_css',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
               name: 'title',
               className: 'feature7-block-title le6gsk3qvgq-editor_css',
               children: (
@@ -477,12 +458,11 @@ export const Feature70DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>
-                        集约化平台化智能化业务数字化平台，集中整合区域全品类交易及供销系统。
-                      </p>
-                      <p>
-                        <br />
-                      </p>
+                      <span>
+                        <p>
+                          集约化平台化智能化业务数字化平台，集中整合区域全品类交易及供销系统。
+                        </p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -499,12 +479,6 @@ export const Feature70DataSource = {
         children: {
           className: 'feature7-block-group',
           children: [
-            {
-              name: 'image',
-              className: 'feature7-block-image le6gsy7o6a-editor_css',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
             {
               name: 'title',
               className: 'feature7-block-title le6gsxnhihq-editor_css',
@@ -541,12 +515,6 @@ export const Feature70DataSource = {
           className: 'feature7-block-group',
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image le6gt0g4hd-editor_css',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
               name: 'title',
               className: 'feature7-block-title le6gszyb088-editor_css',
               children: (
@@ -564,15 +532,11 @@ export const Feature70DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>
-                        多个省级文旅平台，互为目的地、互为客源地，相互推介，流量赋能
-                      </p>
-                      <p>
-                        <br />
-                      </p>
-                      <p>
-                        <br />
-                      </p>
+                      <span>
+                        <p>
+                          多个省级文旅平台，互为目的地、互为客源地，相互推介，流量赋能
+                        </p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -589,12 +553,6 @@ export const Feature70DataSource = {
         children: {
           className: 'feature7-block-group',
           children: [
-            {
-              name: 'image',
-              className: 'feature7-block-image le6gt3k684o-editor_css',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
             {
               name: 'title',
               className: 'feature7-block-title le6gu0eplv8-editor_css',
@@ -635,12 +593,6 @@ export const Feature70DataSource = {
           className: 'feature7-block-group',
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image le6gt6692xd-editor_css',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
               name: 'title',
               className: 'feature7-block-title le6gtwrr3qs-editor_css',
               children: (
@@ -678,12 +630,6 @@ export const Feature70DataSource = {
           className: 'feature7-block-group',
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image le6gtb5iad-editor_css',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
               name: 'title',
               className: 'feature7-block-title le6gtd4dzj-editor_css',
               children: (
@@ -719,12 +665,6 @@ export const Feature70DataSource = {
           className: 'feature7-block-group',
           children: [
             {
-              name: 'image',
-              className: 'feature7-block-image le6gtj403ba-editor_css',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
               name: 'title',
               className: 'feature7-block-title le6gtimcsra-editor_css',
               children: (
@@ -754,36 +694,33 @@ export const Feature70DataSource = {
     ],
   },
 };
-export const Content50DataSource = {
+export const Feature71DataSource = {
   wrapper: {
-    className: 'home-page-wrapper content5-wrapper le8cgfxaf6g-editor_css',
+    className: 'home-page-wrapper feature7-wrapper legsfp4vv8i-editor_css',
   },
-  page: { className: 'home-page content5 le89vwlre3-editor_css' },
-  OverPack: { playScale: 0.3, className: '' },
+  page: { className: 'home-page feature7' },
+  OverPack: { playScale: 0.3 },
   titleWrapper: {
-    className: 'title-wrapper le8acz3j1jd-editor_css',
+    className: 'feature7-title-wrapper',
     children: [
       {
         name: 'title',
+        className: 'feature7-title-h1',
         children: (
           <span>
-            <span>
-              <p>资质证书</p>
-            </span>
+            <p>资质证书</p>
           </span>
         ),
-        className: 'title-h1',
       },
       {
         name: 'content',
-        className: 'title-content le8absi3i4f-editor_css',
+        className: 'feature7-title-content legh6cysc7i-editor_css',
         children: (
           <span>
             <span>
               <span>
                 <p>
-                  &nbsp; &nbsp; &nbsp; &nbsp;
-                  公司掌握核心技术和自主知识产权，累计申请各类专利8项、软件著作权19项，产品全方位覆盖智慧旅游的营销、管理和服务领域；与政府、景区、旅游集团、旅游目的地协同合作，引领并推动产业升级和服务创新。
+                  公司掌握核心技术和自主知识产权，累计申请各类管理证书5项、各类专利8项、软件著作权19项，产品全方位覆盖智慧旅游的营销、管理和服务领域；与政府、景区、旅游集团、旅游目的地协同合作，引领并推动产业升级和服务创新。
                 </p>
               </span>
             </span>
@@ -791,126 +728,1240 @@ export const Content50DataSource = {
         ),
       },
       {
-        name: 'image~lefgmgl7mys',
-        className: 'lefgmhttqt-editor_css',
+        name: 'image~legv8lz8vdl',
+        className: 'legv8n7x6c-editor_css',
         children: '',
       },
     ],
   },
-  block: {
-    className: 'content5-img-wrapper le8cg1iqwjc-editor_css',
-    gutter: 16,
+  blockWrapper: {
+    className: 'feature7-block-wrapper',
+    gutter: 24,
     children: [
       {
+        md: 6,
+        xs: 24,
         name: 'block0',
-        className: 'block',
-        md: 6,
-        xs: 24,
+        className: 'feature7-block',
         children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legh74tuv79-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>ISO20000-1:2018 信息技术服务管理体系CNAS认证</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <p>智慧旅游领域内应用软件开发及其运维服务</p>
+                  </span>
+                </span>
+              ),
+            },
+          ],
         },
       },
       {
+        md: 6,
+        xs: 24,
         name: 'block1',
-        className: 'block',
-        md: 6,
-        xs: 24,
+        className: 'feature7-block',
         children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title leghanmo817-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>ISO 45001:2018 职业健康安全管理体系认证</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <p>智慧旅游领域内应用软件开发及其运维服务</p>
+                </span>
+              ),
+            },
+          ],
         },
       },
       {
+        md: 6,
+        xs: 24,
         name: 'block2',
-        className: 'block',
-        md: 6,
-        xs: 24,
+        className: 'feature7-block',
         children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legh9su88y-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <p>ISO 9001:2015 质量管理体系CNAS认证</p>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <p>智慧旅游领域内应用软件开发及其运维服务</p>
+                </span>
+              ),
+            },
+          ],
         },
       },
       {
+        md: 6,
+        xs: 24,
         name: 'block3',
-        className: 'block',
-        md: 6,
-        xs: 24,
+        className: 'feature7-block',
         children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'image',
+              className: 'feature7-block-image leghatcnrtf-editor_css',
+              children:
+                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
+            },
+            {
+              name: 'title',
+              className: 'feature7-block-title leghasvszhc-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>ISO/IEC 27001:2013 信息安全管理体系认证</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <p>智慧旅游领域内应用软件开发及其运维服务</p>
+                </span>
+              ),
+            },
+          ],
         },
       },
       {
+        md: 6,
+        xs: 24,
         name: 'block4',
-        className: 'block',
-        md: 6,
-        xs: 24,
+        className: 'feature7-block',
         children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title leghcdpf4uo-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>ISO 14001:2015 环境管理体系认证</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <p>智慧旅游领域内应用软件开发及其运维服务</p>
+                </span>
+              ),
+            },
+          ],
         },
       },
       {
+        md: 6,
+        xs: 24,
         name: 'block5',
-        className: 'block',
-        md: 6,
-        xs: 24,
+        className: 'feature7-block',
         children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title leghcmmlkf-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <p>CN 112711714B 专利证书</p>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <p>一种基于5G与AR的旅行路线推荐方法</p>
+                  </span>
+                </span>
+              ),
+            },
+          ],
         },
       },
       {
+        md: 6,
+        xs: 24,
         name: 'block6',
-        className: 'block',
-        md: 6,
-        xs: 24,
+        className: 'feature7-block',
         children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg',
-          },
-          content: { children: 'Ant Design' },
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title leghcxubsbs-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>CN 111339429 B 专利证书</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>识别身份证正反面姓名、身份证号、发证机关等相关信息</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
         },
       },
       {
-        name: 'block7',
-        className: 'block',
         md: 6,
         xs: 24,
+        name: 'block7',
+        className: 'feature7-block',
         children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children:
-              'https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg',
-          },
-          content: { children: 'Ant Motion' },
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <p>软著登字第10334382号</p>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>数字化文旅门票预定系统</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legi80b5ih',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <p>软著登字第10332263号</p>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>一机游活动预约系统V1.0</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legi86b5gv7',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <p>软著登字第8569038号</p>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>一机游支付系统V1.0</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legi87y21u',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <p>软著登字第8390286号</p>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>大数据系统V1.0</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legi899q2t',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第8232898号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>一机游点评系统V1.0</p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legij2tn00n',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第7911796号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>预约打卡软件V1.1</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legij4ii7wg',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <p>软著登字第7848192号</p>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>一机游短信中心软件V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legij58wo7p',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第7847903号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <p>一机游秒杀软件V1.0</p>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legij60gwhg',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第7834115号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>一机游攻略系统V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legij7epc9',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第7517928号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>度假产品预订系统V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legij7zf2g',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第7250113号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>酒店预订系统V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legij8lkdf',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第6921630号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>一机游行程助手系统V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legij9860d',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第5861879号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>一机游营销软件V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legijaymdgq',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第5850224号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>智景通小程序景区号软件V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legijbkcw5q',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第5850539号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>智景通后台管理软件V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legijc4gf9a',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第5850663号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>预约打卡软件V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legijcmesxm',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第58500316号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>一机游资讯软件V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legijdawtep',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第5850308号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>一机游会员后台管理软件V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        md: 6,
+        xs: 24,
+        name: 'block~legijfm1h3q',
+        className: 'feature7-block',
+        children: {
+          className: 'feature7-block-group',
+          children: [
+            {
+              name: 'title',
+              className: 'feature7-block-title legi2iz15f-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <p>软著登字第5194035号</p>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              className: 'feature7-block-content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>智游河南V1.0</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
         },
       },
     ],
@@ -1060,7 +2111,21 @@ export const Footer11DataSource = {
       <span>
         <span>
           <span>
-            Copyright©2022, www.joyuai.com ｜ 沪ICP备19031977号-1<br />
+            <span>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      Copyright©2023,{' '}
+                      <a href target="_blank">
+                        www.joyuai.com
+                      </a>{' '}
+                      ｜ 沪ICP备19031977号-1<br />
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
           </span>
         </span>
       </span>

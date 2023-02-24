@@ -13,7 +13,7 @@ export const Nav01DataSource = {
         name: 'item0',
         className: 'header0-item',
         children: {
-          href: 'https://openyou.life/',
+          href: 'https://e.joyuai.com/',
           children: [
             {
               children: (
@@ -31,50 +31,12 @@ export const Nav01DataSource = {
         name: 'item1',
         className: 'header0-item',
         children: {
-          href: 'https://openyou.life/profile.html',
+          href: '/case.html',
           children: [
             {
               children: (
                 <span>
-                  <span>
-                    <p>公司简介</p>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item2',
-        className: 'header0-item',
-        children: {
-          href: 'https://openyou.life/business.html',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <p>主营业务</p>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-      },
-      {
-        name: 'item3',
-        className: 'header0-item',
-        children: {
-          href: 'https://openyou.life/advantage.html',
-          children: [
-            {
-              children: (
-                <span>
-                  <p>服务与优势</p>
+                  <p>成功案例</p>
                 </span>
               ),
               name: 'text',
@@ -86,7 +48,7 @@ export const Nav01DataSource = {
         name: 'item~lefe7qumx2n',
         className: 'header0-item',
         children: {
-          href: 'https://openyou.life/contact.html',
+          href: '/contact.html',
           children: [
             {
               children: (
@@ -149,13 +111,21 @@ export const Feature10DataSource = {
   },
 };
 export const Footer01DataSource = {
-  wrapper: { className: 'home-page-wrapper footer0-wrapper' },
+  wrapper: {
+    className: 'home-page-wrapper footer0-wrapper lefjiq7ouo9-editor_css',
+  },
   OverPack: { className: 'home-page footer0', playScale: 0.05 },
   copyright: {
     className: 'copyright lefhbrjeb8p-editor_css',
     children: (
       <span>
-        Copyright©2022, www.joyuai.com ｜ 沪ICP备19031977号-1<br />
+        <span>
+          Copyright©2023,{' '}
+          <a href target="_blank">
+            www.joyuai.com
+          </a>{' '}
+          ｜ 沪ICP备19031977号-1<br />
+        </span>
       </span>
     ),
   },
