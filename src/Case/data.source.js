@@ -30,6 +30,31 @@ export const Nav00DataSource = {
         },
       },
       {
+        name: 'item~lef0n07g6g',
+        className: 'header0-item',
+        children: {
+          href: '/solution.html',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>解决方案</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
         name: 'item0',
         className: 'header0-item',
         children: {
@@ -52,7 +77,7 @@ export const Nav00DataSource = {
         subItem: null,
       },
       {
-        name: 'item~lef0n07g6g',
+        name: 'item~lei8ktyh4d9',
         className: 'header0-item',
         children: {
           href: '/contact.html',
@@ -323,11 +348,13 @@ export const Footer10DataSource = {
     children: (
       <span>
         <span>
-          Copyright©2023,{' '}
-          <a href target="_blank">
-            www.joyuai.com
-          </a>{' '}
-          ｜ 沪ICP备19031977号-1<br />
+          <span>
+            Copyright©2023,{' '}
+            <a href="https://www.joyuai.com" target="_blank">
+              www.joyuai.com
+            </a>{' '}
+            ｜ 沪ICP备19031977号-1<br />
+          </span>
         </span>
       </span>
     ),

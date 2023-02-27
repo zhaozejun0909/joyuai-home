@@ -28,6 +28,25 @@ export const Nav01DataSource = {
         subItem: null,
       },
       {
+        name: 'item~leia1t8tzqu',
+        className: 'header0-item',
+        children: {
+          href: '/solution.html',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <p>解决方案</p>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
         name: 'item1',
         className: 'header0-item',
         children: {
@@ -120,11 +139,13 @@ export const Footer01DataSource = {
     children: (
       <span>
         <span>
-          Copyright©2023,{' '}
-          <a href target="_blank">
-            www.joyuai.com
-          </a>{' '}
-          ｜ 沪ICP备19031977号-1<br />
+          <span>
+            Copyright©2023,{' '}
+            <a href="https://www.joyuai.com" target="_blank">
+              www.joyuai.com
+            </a>{' '}
+            ｜ 沪ICP备19031977号-1<br />
+          </span>
         </span>
       </span>
     ),

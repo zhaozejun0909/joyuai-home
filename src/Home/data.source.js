@@ -14,7 +14,7 @@ export const Nav00DataSource = {
         name: 'item0',
         className: 'header0-item',
         children: {
-          href: '#',
+          href: 'https://e.joyuai.com/',
           children: [
             {
               children: (
@@ -27,6 +27,27 @@ export const Nav00DataSource = {
           ],
         },
         subItem: null,
+      },
+      {
+        name: 'item~lei8m8y9twq',
+        className: 'header0-item',
+        children: {
+          href: '/solution.html',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>解决方案</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
       },
       {
         name: 'item1',
@@ -341,348 +362,6 @@ export const Content00DataSource = {
                   <span>
                     <p>
                       泛文旅下线空间新技术新体验应用（景区/乐园/公园/文化/美术/科技馆/博物馆/图书馆）
-                    </p>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-    ],
-  },
-};
-export const Feature70DataSource = {
-  wrapper: {
-    className: 'home-page-wrapper feature7-wrapper lefi9bwckm-editor_css',
-  },
-  page: { className: 'home-page feature7' },
-  OverPack: { playScale: 0.3 },
-  titleWrapper: {
-    className: 'feature7-title-wrapper',
-    children: [
-      {
-        name: 'title',
-        className: 'feature7-title-h1',
-        children: (
-          <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <p>服务与优势</p>
-                  </span>
-                </span>
-              </span>
-            </span>
-          </span>
-        ),
-      },
-      {
-        name: 'content',
-        className: 'feature7-title-content',
-        children: (
-          <span>
-            <span>
-              <p>科技助力中国文旅产业数字化升级</p>
-            </span>
-          </span>
-        ),
-      },
-    ],
-  },
-  blockWrapper: {
-    className: 'feature7-block-wrapper',
-    gutter: 24,
-    children: [
-      {
-        md: 6,
-        xs: 24,
-        name: 'block0',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'title',
-              className: 'feature7-block-title le6gryvqsbh-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <p>
-                      “目的地”一站式解决方案<br />
-                    </p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: (
-                <span>
-                  <span>
-                    <p>
-                      打造“目的地数字化服务”的金字招牌，协力推动目的地文旅供给侧改革，提高目的地文旅营销效率和服务能级。
-                    </p>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block1',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'title',
-              className: 'feature7-block-title le6gsk3qvgq-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <p>文旅资源集散平台解决方案</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p>
-                          集约化平台化智能化业务数字化平台，集中整合区域全品类交易及供销系统。
-                        </p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block2',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'title',
-              className: 'feature7-block-title le6gsxnhihq-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <p>全域文旅场所预约解决方案</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: (
-                <span>
-                  <span>
-                    <p>
-                      面向省、市、县各文旅场所一体化提升整体互联网服务水平，不依赖场所信息化水平，实现所有场所全面覆盖。
-                    </p>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block3',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'title',
-              className: 'feature7-block-title le6gszyb088-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <p>跨平台文旅数字营销服务</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p>
-                          多个省级文旅平台，互为目的地、互为客源地，相互推介，流量赋能
-                        </p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block4',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'title',
-              className: 'feature7-block-title le6gu0eplv8-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <p>文旅全产业链</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <p>
-                          所属集团深耕旅游业近20年，连续10年入选中国旅游集团20强，覆盖文旅全产业链，包括规划、营销、目的地运营、投资、智慧旅游等
-                        </p>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block5',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'title',
-              className: 'feature7-block-title le6gtwrr3qs-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <p>头部OTA经验</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>
-                        超过2亿用户规模、超过10万合作商家、超过9亿下载、遍及全国110子公司高频交易系统承载和运营经验。
-                      </p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block6',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'title',
-              className: 'feature7-block-title le6gtd4dzj-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <p>省级平台经验</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: (
-                <span>
-                  <span>
-                    <p>
-                      已经成功实施上海、山西、湖北等省级智慧文旅平台项目，投入经济效果良好，也更有省级平台项目效果把控经验、冲刺经验。
-                    </p>
-                  </span>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block7',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group',
-          children: [
-            {
-              name: 'title',
-              className: 'feature7-block-title le6gtimcsra-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <p>5A景区实施标杆</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: (
-                <span>
-                  <span>
-                    <p>
-                      以5A景区天山天池为基础，成功实施大型文旅目的地数字化转型，大幅提升文旅目的地营收规模，实现A股ST摘帽。
                     </p>
                   </span>
                 </span>
@@ -2116,11 +1795,19 @@ export const Footer11DataSource = {
                 <span>
                   <span>
                     <span>
-                      Copyright©2023,{' '}
-                      <a href target="_blank">
-                        www.joyuai.com
-                      </a>{' '}
-                      ｜ 沪ICP备19031977号-1<br />
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              Copyright©2023,{' '}
+                              <a href="https://www.joyuai.com" target="_blank">
+                                www.joyuai.com
+                              </a>{' '}
+                              ｜ 沪ICP备19031977号-1<br />
+                            </span>
+                          </span>
+                        </span>
+                      </span>
                     </span>
                   </span>
                 </span>
