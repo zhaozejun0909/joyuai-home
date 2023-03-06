@@ -10,7 +10,7 @@ export const Nav01DataSource = {
     className: 'header0-menu',
     children: [
       {
-        name: 'item0',
+        name: 'item1',
         className: 'header0-item',
         children: {
           href: 'https://e.joyuai.com/',
@@ -18,14 +18,34 @@ export const Nav01DataSource = {
             {
               children: (
                 <span>
-                  <p>首页</p>
+                  <span>
+                    <p>首页</p>
+                  </span>
                 </span>
               ),
               name: 'text',
             },
           ],
         },
-        subItem: null,
+      },
+      {
+        name: 'item~lefe7qumx2n',
+        className: 'header0-item',
+        children: {
+          href: '/about.html',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <p>关于我们</p>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
       },
       {
         name: 'item~leia1t8tzqu',
@@ -47,7 +67,7 @@ export const Nav01DataSource = {
         },
       },
       {
-        name: 'item1',
+        name: 'item~lesgglgwxrn',
         className: 'header0-item',
         children: {
           href: '/case.html',
@@ -55,16 +75,21 @@ export const Nav01DataSource = {
             {
               children: (
                 <span>
-                  <p>成功案例</p>
+                  <span>
+                    <span>
+                      <p>成功案例</p>
+                    </span>
+                  </span>
                 </span>
               ),
               name: 'text',
             },
           ],
         },
+        subItem: null,
       },
       {
-        name: 'item~lefe7qumx2n',
+        name: 'item0',
         className: 'header0-item',
         children: {
           href: '/contact.html',
@@ -72,13 +97,16 @@ export const Nav01DataSource = {
             {
               children: (
                 <span>
-                  <p>联系景宇</p>
+                  <span>
+                    <p>联系景宇</p>
+                  </span>
                 </span>
               ),
               name: 'text',
             },
           ],
         },
+        subItem: null,
       },
     ],
   },
@@ -118,13 +146,20 @@ export const Feature10DataSource = {
     className: 'content1-content lefhbkfyamj-editor_css',
     children: (
       <span>
-        <p>联系电话：021-60561616</p>
-        <p>
-          电子邮箱：mkt@joyuai.com<br />
-        </p>
-        <p>
-          合作热线：021-51212088-3335<br />
-        </p>
+        <span>
+          <span>
+            <span>
+              <p>联系地址：上海市景域大道88号驴妈妈科技园</p>
+              <p>联系电话：021-60561616</p>
+              <p>
+                电子邮箱：mkt@joyuai.com<br />
+              </p>
+              <p>
+                合作热线：021-51212088-3335<br />
+              </p>
+            </span>
+          </span>
+        </span>
       </span>
     ),
   },

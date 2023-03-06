@@ -4,13 +4,12 @@ import React from 'react';
 import { enquireScreen } from 'enquire-js';
 
 import Nav0 from './Nav0';
-import Feature7 from './Feature7';
+import Content5 from './Content5';
 import Footer1 from './Footer1';
 
 import {
   Nav00DataSource,
-  Feature70DataSource,
-  Feature71DataSource,
+  Content50DataSource,
   Footer10DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -57,16 +56,10 @@ export default class Home extends React.Component {
         dataSource={Nav00DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Feature7
-        id="Feature7_0"
-        key="Feature7_0"
-        dataSource={Feature70DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature7
-        id="Feature7_1"
-        key="Feature7_1"
-        dataSource={Feature71DataSource}
+      <Content5
+        id="Content5_0"
+        key="Content5_0"
+        dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
       <Footer1

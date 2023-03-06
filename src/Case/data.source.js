@@ -14,7 +14,7 @@ export const Nav00DataSource = {
         name: 'item1',
         className: 'header0-item',
         children: {
-          href: 'https://e.joyuai.com/',
+          href: 'https://openyou.life/',
           children: [
             {
               children: (
@@ -30,7 +30,28 @@ export const Nav00DataSource = {
         },
       },
       {
-        name: 'item~lef0n07g6g',
+        name: 'item~les9u9uh4k8',
+        className: 'header0-item',
+        children: {
+          href: '/about.html',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>关于我们</p>
+                    </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item~lei8jyuv0lj',
         className: 'header0-item',
         children: {
           href: '/solution.html',
@@ -40,12 +61,27 @@ export const Nav00DataSource = {
                 <span>
                   <span>
                     <span>
-                      <span>
-                        <span>
-                          <p>解决方案</p>
-                        </span>
-                      </span>
+                      <p>解决方案</p>
                     </span>
+                  </span>
+                </span>
+              ),
+              name: 'text',
+            },
+          ],
+        },
+      },
+      {
+        name: 'item~lef1oz61wat',
+        className: 'header0-item',
+        children: {
+          href: '/case.html',
+          children: [
+            {
+              children: (
+                <span>
+                  <span>
+                    <p>成功案例</p>
                   </span>
                 </span>
               ),
@@ -56,28 +92,6 @@ export const Nav00DataSource = {
       },
       {
         name: 'item0',
-        className: 'header0-item',
-        children: {
-          href: '/case.html',
-          children: [
-            {
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>成功案例</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-              name: 'text',
-            },
-          ],
-        },
-        subItem: null,
-      },
-      {
-        name: 'item~lei8ktyh4d9',
         className: 'header0-item',
         children: {
           href: '/contact.html',
@@ -98,14 +112,17 @@ export const Nav00DataSource = {
             },
           ],
         },
+        subItem: null,
       },
     ],
   },
   mobileMenu: { className: 'header0-mobile-menu' },
 };
 export const Feature00DataSource = {
-  wrapper: { className: 'home-page-wrapper content0-wrapper' },
-  page: { className: 'home-page content0 lehwp8misu-editor_css' },
+  wrapper: {
+    className: 'home-page-wrapper content0-wrapper lesc2lgzjdo-editor_css',
+  },
+  page: { className: 'home-page content0 lesc35z1sdd-editor_css' },
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
@@ -121,7 +138,7 @@ export const Feature00DataSource = {
     ],
   },
   childWrapper: {
-    className: 'content0-block-wrapper',
+    className: 'content0-block-wrapper lesb7cfaudt-editor_css',
     children: [
       {
         name: 'block0',
@@ -150,12 +167,11 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>18年9月5日 上海市委书记李强提出</p>
-                  <p>19年10月22日 上海市副市长宗明发布试运行</p>
-                  <p>21年1月 平台服务注册用户数突破400万</p>
+                  <p>
+                    立足上海城市形象推广，一站式集聚上海“食、住、行、游、购、娱”产品和资讯等服务。
+                  </p>
                 </span>
               ),
-              className: 'lehwo7xub0g-editor_css',
             },
           ],
         },
@@ -187,9 +203,9 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>20年4月30日 山西省省委委书记楼阳生发布</p>
-                  <p>20年8月28日 平台注册用户强劲突破200万</p>
-                  <p>21年5月5日 平台注册用户已突破500万</p>
+                  <p>
+                    游山西App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
+                  </p>
                 </span>
               ),
             },
@@ -222,9 +238,9 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>21年1月12日 湖北省副省长张文兵发布</p>
-                  <p>21年1月27日 注册用户数突破20万</p>
-                  <p>21年10月15日 注册用户近300万，平台交易额超过5000万</p>
+                  <p>
+                    游湖北App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
+                  </p>
                 </span>
               ),
             },
@@ -245,7 +261,7 @@ export const Footer10DataSource = {
         name: 'block0',
         xs: 24,
         md: 6,
-        className: 'block lef10cftr1-editor_css',
+        className: 'block lef1vozp3tn-editor_css',
         title: {
           className: 'logo',
           children:
@@ -265,17 +281,26 @@ export const Footer10DataSource = {
         name: 'block1',
         xs: 24,
         md: 6,
-        className: 'block lefgbyyasn-editor_css',
+        className: 'block lescghl4q77-editor_css',
         title: {
           children: (
             <span>
               <p>上海景宇宙智能科技集团有限公司</p>
             </span>
           ),
-          className: 'lef3kfr843g-editor_css',
+          className: 'lef22d3hozk-editor_css',
         },
         childWrapper: {
           children: [
+            {
+              name: 'content~lescfefuf9m',
+              className: 'lescfg5f5jn-editor_css',
+              children: (
+                <span>
+                  <p>联系地址：上海市景域大道88号驴妈妈科技园</p>
+                </span>
+              ),
+            },
             {
               name: 'link0',
               href: '#',
@@ -302,13 +327,12 @@ export const Footer10DataSource = {
                   <p>合作热线：021-51212088-3335</p>
                 </span>
               ),
-              className: 'lefgalihfqd-editor_css',
             },
             {
               name: 'link3',
               href: '#',
               children: '参考指南',
-              className: 'lef3leoop1r-editor_css',
+              className: 'lef23g4be89-editor_css',
             },
           ],
         },
@@ -317,7 +341,7 @@ export const Footer10DataSource = {
         name: 'block2',
         xs: 24,
         md: 6,
-        className: 'block lef3gr6iy2p-editor_css',
+        className: 'block lef1vx6n0s6-editor_css',
         title: { children: '关于' },
         childWrapper: {
           children: [
@@ -330,7 +354,7 @@ export const Footer10DataSource = {
         name: 'block3',
         xs: 24,
         md: 6,
-        className: 'block lef3gi5b85b-editor_css',
+        className: 'block lef1vvdqbh8-editor_css',
         title: { children: '资源' },
         childWrapper: {
           children: [
@@ -344,17 +368,15 @@ export const Footer10DataSource = {
   copyrightWrapper: { className: 'copyright-wrapper' },
   copyrightPage: { className: 'home-page' },
   copyright: {
-    className: 'copyright',
+    className: 'copyright lefhcgmys6q-editor_css',
     children: (
       <span>
         <span>
-          <span>
-            Copyright©2023,{' '}
-            <a href="https://www.joyuai.com" target="_blank">
-              www.joyuai.com
-            </a>{' '}
-            ｜ 沪ICP备19031977号-1<br />
-          </span>
+          Copyright©2023,{' '}
+          <a href="https://www.joyuai.com" target="_blank">
+            www.joyuai.com
+          </a>{' '}
+          ｜ 沪ICP备19031977号-1<br />
         </span>
       </span>
     ),
