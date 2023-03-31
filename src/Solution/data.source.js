@@ -160,7 +160,9 @@ export const Content50DataSource = {
           content: {
             children: (
               <span>
-                <p>“目的地”一站式解决方案</p>
+                <span>
+                  <p>提高目的地文旅营销效率和服务能级</p>
+                </span>
               </span>
             ),
           },
@@ -175,11 +177,14 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_2@2x.png',
+            className: 'lfwcdp24k8p-editor_css',
           },
           content: {
             children: (
               <span>
-                <p>文旅资源集散平台解决方案</p>
+                <span>
+                  <p>集约化平台化智能化业务数字化平台</p>
+                </span>
               </span>
             ),
           },
@@ -199,7 +204,9 @@ export const Content50DataSource = {
             children: (
               <span>
                 <span>
-                  <p>文旅场所预约解决方案</p>
+                  <span>
+                    <p>省、市、县各文旅场所一体化、智能化</p>
+                  </span>
                 </span>
               </span>
             ),
@@ -219,7 +226,9 @@ export const Content50DataSource = {
           content: {
             children: (
               <span>
-                <p>跨平台文旅数字营销服务</p>
+                <span>
+                  <p>多场景配置、多方式识别、多系统对接</p>
+                </span>
               </span>
             ),
           },
@@ -238,7 +247,9 @@ export const Content50DataSource = {
           content: {
             children: (
               <span>
-                <p>景区场景联动精准营销系统</p>
+                <span>
+                  <p>联动景区内部及周边区域精准营销</p>
+                </span>
               </span>
             ),
           },
@@ -257,7 +268,9 @@ export const Content50DataSource = {
           content: {
             children: (
               <span>
-                <p>酒店经营一体化解决方案</p>
+                <span>
+                  <p>提升景区周边酒店场景入住率提升</p>
+                </span>
               </span>
             ),
           },
@@ -276,7 +289,9 @@ export const Content50DataSource = {
           content: {
             children: (
               <span>
-                <p>酒店分散式经营系统</p>
+                <span>
+                  <p>多省联动、相互推介、流量赋能</p>
+                </span>
               </span>
             ),
           },
@@ -297,7 +312,9 @@ export const Content50DataSource = {
           content: {
             children: (
               <span>
-                <p>景区快速入园智慧服务</p>
+                <span>
+                  <p>会员体系、私域会员管理、会员统计分析</p>
+                </span>
               </span>
             ),
           },
@@ -317,7 +334,9 @@ export const Content50DataSource = {
             children: (
               <span>
                 <span>
-                  <p>文旅数字化平台应用安全体系</p>
+                  <span>
+                    <p>可信、可管、可控</p>
+                  </span>
                 </span>
               </span>
             ),
@@ -337,7 +356,9 @@ export const Content50DataSource = {
           content: {
             children: (
               <span>
-                <p>基于微目的地专注文旅的大会员体系</p>
+                <span>
+                  <p>在线选房 无接触入住 降低人工成本</p>
+                </span>
               </span>
             ),
           },
