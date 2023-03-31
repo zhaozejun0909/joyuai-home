@@ -154,7 +154,9 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_1@2x.png',
+          },
           content: {
             children: (
               <span>
@@ -171,7 +173,9 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_2@2x.png',
+          },
           content: {
             children: (
               <span>
@@ -188,11 +192,15 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_3@2x.png',
+          },
           content: {
             children: (
               <span>
-                <p>文旅资源集散平台解决方案</p>
+                <span>
+                  <p>文旅场所预约解决方案</p>
+                </span>
               </span>
             ),
           },
@@ -205,7 +213,9 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_4@2x.png',
+          },
           content: {
             children: (
               <span>
@@ -222,7 +232,9 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_5@2x.png',
+          },
           content: {
             children: (
               <span>
@@ -239,7 +251,9 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_6@2x.png',
+          },
           content: {
             children: (
               <span>
@@ -256,7 +270,9 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_7@2x.png',
+          },
           content: {
             children: (
               <span>
@@ -275,7 +291,9 @@ export const Content50DataSource = {
           wrapper: {
             className: 'content5-block-content lescxk4gwy-editor_css',
           },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_8@2x.png',
+          },
           content: {
             children: (
               <span>
@@ -292,7 +310,9 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_9@2x.png',
+          },
           content: {
             children: (
               <span>
@@ -311,7 +331,9 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_10@2x.png',
+          },
           content: {
             children: (
               <span>

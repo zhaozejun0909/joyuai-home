@@ -172,6 +172,7 @@ export const Feature00DataSource = {
                   </p>
                 </span>
               ),
+              className: 'lfq7qyxtcgo-editor_css',
             },
           ],
         },
@@ -208,6 +209,7 @@ export const Feature00DataSource = {
                   </p>
                 </span>
               ),
+              className: 'lfq7r1mdnk-editor_css',
             },
           ],
         },
@@ -243,6 +245,47 @@ export const Feature00DataSource = {
                   </p>
                 </span>
               ),
+              className: 'lfq7r3q0tyn-editor_css',
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~lewbenpuhwu',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item lewbjynhs0p-editor_css',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon lewbep8om5o-editor_css',
+              children: 'https://openyou.life/joyuai/icon_xiyu_nor_120@3x.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <p>游西域</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <p>
+                      “游西域”是西域旅游集团（股票代码：300859）提供集团景区、旅游产品服务的官方平台，更有泛西域文化核心目的地深度文旅服务；游西域，见所未见。
+                    </p>
+                  </span>
+                </span>
+              ),
+              className: 'lfq7rddtskc-editor_css',
             },
           ],
         },

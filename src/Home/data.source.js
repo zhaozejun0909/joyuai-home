@@ -118,114 +118,31 @@ export const Nav00DataSource = {
   },
   mobileMenu: { className: 'header0-mobile-menu' },
 };
-export const Banner10DataSource = {
-  wrapper: { className: 'banner1' },
-  BannerAnim: {
-    children: [
-      {
-        name: 'elem0',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: {
-          className: 'banner1-text-wrapper les1l94jk8p-editor_css',
-        },
-        bg: { className: 'bg bg0 les7oq8n1kc-editor_css' },
-        title: {
-          className: 'banner1-title les1ky3ad2i-editor_css',
-          children: 'https://openyou.life/joyuai/logo_vertical.png',
-        },
-        content: {
-          className: 'banner1-content les1l54bd3r-editor_css',
-          children: (
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <p>科技助力中国文旅产业数字化升级</p>
-                  </span>
-                </span>
-              </span>
-            </span>
-          ),
-        },
-        button: {
-          className: 'banner1-button les1mheigf-editor_css',
-          children: (
-            <span>
-              <span>
-                <p>
-                  <span>联系我们</span>
-                  <br />
-                </p>
-              </span>
-            </span>
-          ),
-          type: 'default',
-          href: '',
-        },
-      },
-      {
-        name: 'elem1',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: {
-          className: 'banner1-text-wrapper les7z8f8b2-editor_css',
-        },
-        bg: { className: 'bg1 bg les7ywte50d-editor_css' },
-        title: {
-          className: 'banner1-title les7z557wjc-editor_css',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content les7vp5gv2i-editor_css',
-          children: (
-            <span>
-              <span>
-                <p>科技助力中国文旅产业数字化升级</p>
-              </span>
-            </span>
-          ),
-        },
-        button: {
-          className: 'banner1-button les7vwtkctn-editor_css',
-          children: (
-            <span>
-              <p>联系我们</p>
-            </span>
-          ),
-        },
-      },
-      {
-        name: 'elem2',
-        BannerElement: { className: 'banner-user-elem' },
-        textWrapper: {
-          className: 'banner1-text-wrapper les81vwtjkn-editor_css',
-        },
-        bg: { className: 'bg bg1 les814j4l9e-editor_css' },
-        title: {
-          className: 'banner1-title les8160wt9b-editor_css',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
-        },
-        content: {
-          className: 'banner1-content les81866pna-editor_css',
-          children: (
-            <span>
-              <p>科技助力中国文旅产业数字化升级</p>
-            </span>
-          ),
-        },
-        button: {
-          className: 'banner1-button les81awh4k-editor_css',
-          children: (
-            <span>
-              <span>
-                <p>联系我们</p>
-              </span>
-            </span>
-          ),
-        },
-      },
-    ],
+export const Banner00DataSource = {
+  wrapper: { className: 'banner0 lewbva06aif-editor_css' },
+  textWrapper: { className: 'banner0-text-wrapper lewbwe680zg-editor_css' },
+  title: {
+    className: 'banner0-title lewbubr2gh9-editor_css',
+    children: 'https://zos.alipayobjects.com/rmsportal/HqnZZjBjWRbjyMr.png',
+  },
+  content: {
+    className: 'banner0-content lewbuiev6g9-editor_css',
+    children: (
+      <span>
+        <p>科技助力中国文旅产业数字化升级</p>
+      </span>
+    ),
+  },
+  button: {
+    className: 'banner0-button lewbuoyld7k-editor_css',
+    children: (
+      <span>
+        <p>联系我们</p>
+      </span>
+    ),
+    type: 'default',
+    href: '/contact.html',
+    target: '_blank',
   },
 };
 export const Content00DataSource = {

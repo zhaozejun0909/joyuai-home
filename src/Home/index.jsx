@@ -4,7 +4,7 @@ import React from 'react';
 import { enquireScreen } from 'enquire-js';
 import scrollScreen from 'rc-scroll-anim/lib/ScrollScreen';
 import Nav0 from './Nav0';
-import Banner1 from './Banner1';
+import Banner0 from './Banner0';
 import Content0 from './Content0';
 import Content5 from './Content5';
 import Content13 from './Content13';
@@ -12,7 +12,7 @@ import Footer1 from './Footer1';
 import Point from './Point';
 import {
   Nav00DataSource,
-  Banner10DataSource,
+  Banner00DataSource,
   Content00DataSource,
   Content50DataSource,
   Content130DataSource,
@@ -39,7 +39,7 @@ export default class Home extends React.Component {
   componentDidMount() {
     /* 如果不是 dva 2.0 请使用以下代码
     // 实现整屏滚动
-    scrollScreen.init({ location: ['Banner1_0', 'Content0_0', 'Content5_0', 'Content13_0', 'Footer1_2'] });
+    scrollScreen.init({ location: ['Banner0_0', 'Content0_0', 'Content5_0', 'Content13_0', 'Footer1_2'] });
     */
     // 适配手机屏幕;
     enquireScreen((b) => {
@@ -56,7 +56,7 @@ export default class Home extends React.Component {
         // 实现整屏滚动
         scrollScreen.init({
           location: [
-            'Banner1_0',
+            'Banner0_0',
             'Content0_0',
             'Content5_0',
             'Content13_0',
@@ -76,10 +76,10 @@ export default class Home extends React.Component {
         dataSource={Nav00DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Banner1
-        id="Banner1_0"
-        key="Banner1_0"
-        dataSource={Banner10DataSource}
+      <Banner0
+        id="Banner0_0"
+        key="Banner0_0"
+        dataSource={Banner00DataSource}
         isMobile={this.state.isMobile}
       />,
       <Content0
@@ -110,7 +110,7 @@ export default class Home extends React.Component {
         key="list"
         data={[
           'Nav0_0',
-          'Banner1_0',
+          'Banner0_0',
           'Content0_0',
           'Content5_0',
           'Content13_0',
