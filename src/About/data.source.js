@@ -324,7 +324,7 @@ export const Feature70DataSource = {
       },
       {
         name: 'content',
-        className: 'feature7-title-content',
+        className: 'feature7-title-content li8b4i34t1f-editor_css',
         children: (
           <span>
             <p>有深度 更全面 规模承载 经营赋能 有创新 增收益 有高度 重效果</p>
@@ -334,7 +334,7 @@ export const Feature70DataSource = {
     ],
   },
   blockWrapper: {
-    className: 'feature7-block-wrapper',
+    className: 'feature7-block-wrapper li8c3wh0rio-editor_css',
     gutter: 24,
     children: [
       {
@@ -362,7 +362,7 @@ export const Feature70DataSource = {
             },
             {
               name: 'content',
-              className: 'feature7-block-content',
+              className: 'feature7-block-content li8b4o4f3eg-editor_css',
               children: (
                 <span>
                   <span>
@@ -407,7 +407,7 @@ export const Feature70DataSource = {
             },
             {
               name: 'content',
-              className: 'feature7-block-content',
+              className: 'feature7-block-content li8b5pqhgi8-editor_css',
               children: (
                 <span>
                   <p>
@@ -444,7 +444,7 @@ export const Feature70DataSource = {
             },
             {
               name: 'content',
-              className: 'feature7-block-content',
+              className: 'feature7-block-content li8b5l7dc4c-editor_css',
               children: (
                 <span>
                   <p>
@@ -481,7 +481,7 @@ export const Feature70DataSource = {
             },
             {
               name: 'content',
-              className: 'feature7-block-content',
+              className: 'feature7-block-content li8b59i88v-editor_css',
               children: (
                 <span>
                   <p>

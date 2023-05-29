@@ -134,6 +134,7 @@ export const Feature00DataSource = {
             <p>成功案例</p>
           </span>
         ),
+        className: 'li8blyqvk2d-editor_css',
       },
     ],
   },
@@ -156,7 +157,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title li8bm5uf93h-editor_css',
               children: (
                 <span>
                   <p>游上海</p>
@@ -193,7 +194,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title li8bmbdgqum-editor_css',
               children: (
                 <span>
                   <p>游山西</p>
@@ -229,7 +230,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title li8bmgock49-editor_css',
               children: (
                 <span>
                   <p>游湖北</p>
@@ -265,7 +266,7 @@ export const Feature00DataSource = {
             },
             {
               name: 'title',
-              className: 'content0-block-title',
+              className: 'content0-block-title li8bmkf1o2c-editor_css',
               children: (
                 <span>
                   <span>
