@@ -315,7 +315,7 @@ export const Feature70DataSource = {
     children: [
       {
         name: 'title',
-        className: 'feature7-title-h1',
+        className: 'feature7-title-h1 li89gifxm2t-editor_css',
         children: (
           <span>
             <p>公司优势</p>
@@ -621,7 +621,7 @@ export const Content120DataSource = {
             <p>合作伙伴</p>
           </span>
         ),
-        className: 'title-h1',
+        className: 'title-h1 li89h67ixg-editor_css',
       },
       {
         name: 'image~lfwavgsr1f',

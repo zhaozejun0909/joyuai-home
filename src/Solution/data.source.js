@@ -156,6 +156,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_1@2x.png',
+            className: 'li87gefj7l-editor_css',
           },
           content: {
             children: (
@@ -199,6 +200,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_3@2x.png',
+            className: 'li88c9irkzl-editor_css',
           },
           content: {
             children: (
@@ -222,6 +224,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_4@2x.png',
+            className: 'li88cfxjd8u-editor_css',
           },
           content: {
             children: (
@@ -243,6 +246,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_5@2x.png',
+            className: 'li88cnhkvmf-editor_css',
           },
           content: {
             children: (
@@ -264,6 +268,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_6@2x.png',
+            className: 'li88cva8ix8-editor_css',
           },
           content: {
             children: (
@@ -285,6 +290,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_7@2x.png',
+            className: 'li88d07wh5b-editor_css',
           },
           content: {
             children: (
@@ -308,6 +314,7 @@ export const Content50DataSource = {
           },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_8@2x.png',
+            className: 'li88d5n1rhq-editor_css',
           },
           content: {
             children: (
@@ -329,6 +336,7 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_9@2x.png',
+            className: 'li88damsh1u-editor_css',
           },
           content: {
             children: (
@@ -352,12 +360,37 @@ export const Content50DataSource = {
           wrapper: { className: 'content5-block-content' },
           img: {
             children: 'https://openyou.life/joyuai/pic_solution_10@2x.png',
+            className: 'li88dfnofsa-editor_css',
           },
           content: {
             children: (
               <span>
                 <span>
                   <p>在线选房 无接触入住 降低人工成本</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block~li88mg1iyrp',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children: 'https://openyou.life/joyuai/pic_solution_11@2x.png',
+            className: 'li88dfnofsa-editor_css',
+          },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <p>一体化 多场景 智能感知</p>
+                  </span>
                 </span>
               </span>
             ),
