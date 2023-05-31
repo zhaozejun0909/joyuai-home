@@ -176,6 +176,9 @@ export const Feature10DataSource = {
   OverPack: {
     className: 'home-page content1 lew78kvt6u6-editor_css',
     playScale: 0.3,
+    gutter: 1,
+    appear: false,
+    always: false,
   },
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
   img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
@@ -199,20 +202,22 @@ export const Feature10DataSource = {
         <span>
           <span>
             <span>
-              <p>
-                <b>上海景宇宙智能科技集团有限公司，简称“景宇智能”</b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
-              </p>
-              <p>
-                <br />
-              </p>
-              <p>
-                原名“上海景域智能科技有限公司”，<b>
-                  隶属于中国旅游20强上海景域驴妈妈集团
-                </b>，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，是<b
-                >
-                  国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
-                </b>
-              </p>
+              <span>
+                <p>
+                  <b>上海景宇宙智能科技集团有限公司，简称“景宇智能”</b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
+                </p>
+                <p>
+                  <br />
+                </p>
+                <p>
+                  原名“上海景域智能科技有限公司”，<b>
+                    隶属于中国旅游20强上海景域驴妈妈集团
+                  </b>，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，是<b
+                  >
+                    国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
+                  </b>
+                </p>
+              </span>
             </span>
           </span>
         </span>
