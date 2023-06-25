@@ -205,9 +205,13 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>
-                    游山西App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
-                  </p>
+                  <span>
+                    <span>
+                      <p>
+                        游山西App，面向山西游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现一站式服务。
+                      </p>
+                    </span>
+                  </span>
                 </span>
               ),
               className: 'lfq7r1mdnk-editor_css',
@@ -241,9 +245,11 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>
-                    游湖北App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
-                  </p>
+                  <span>
+                    <p>
+                      游湖北App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现一站式服务。
+                    </p>
+                  </span>
                 </span>
               ),
               className: 'lfq7r3q0tyn-editor_css',
