@@ -179,7 +179,7 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children: 'https://openyou.life/joyuai/icon_gov_nor_120.png',
+              children: '/joyuai/icon_gov_nor_120.png',
             },
             {
               name: 'title',
@@ -220,7 +220,7 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children: 'https://openyou.life/joyuai/icon_com_nor_120.png',
+              children: '/joyuai/icon_com_nor_120.png',
             },
             {
               name: 'title',
@@ -257,7 +257,7 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children: 'https://openyou.life/joyuai/icon_space_nor_120.png',
+              children: '/joyuai/icon_space_nor_120.png',
             },
             {
               name: 'title',
