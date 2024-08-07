@@ -4,7 +4,7 @@ export const Nav01DataSource = {
   page: { className: 'home-page' },
   logo: {
     className: 'header0-logo',
-    children: 'https://openyou.life/joyuai/logo_hori.png',
+    children: 'https://e.joyuai.com/joyuai/logo_hori.png',
   },
   Menu: {
     className: 'header0-menu',
@@ -126,7 +126,7 @@ export const Feature10DataSource = {
     xs: 24,
   },
   img: {
-    children: 'https://openyou.life/joyuai/logo_vertical.png',
+    children: 'https://e.joyuai.com/joyuai/logo_vertical.png',
     className: 'lef2f61oi9i-editor_css',
   },
   textWrapper: {
