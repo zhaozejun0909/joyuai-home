@@ -32,7 +32,7 @@ export const Nav00DataSource = {
         name: 'item~les9wa5v4h',
         className: 'header0-item',
         children: {
-          href: 'about.html',
+          href: '/about.html',
           children: [
             {
               children: (
@@ -47,6 +47,7 @@ export const Nav00DataSource = {
               name: 'text',
             },
           ],
+          target: '',
         },
       },
       {
@@ -179,7 +180,7 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children: '/joyuai/icon_gov_nor_120.png',
+              children: 'https://e.joyuai.com/joyuai/icon_gov_nor_120.png',
             },
             {
               name: 'title',
@@ -220,7 +221,7 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children: '/joyuai/icon_com_nor_120.png',
+              children: 'https://e.joyuai.com/joyuai/icon_gov_nor_120.png',
             },
             {
               name: 'title',
@@ -257,7 +258,7 @@ export const Content00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children: '/joyuai/icon_space_nor_120.png',
+              children: 'https://e.joyuai.com/joyuai/icon_space_nor_120.png',
             },
             {
               name: 'title',
@@ -336,10 +337,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_gq.png',
-            className: 'li89m1tbj0e-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -362,10 +360,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_ISO45001.png',
-            className: 'li89mfd6i96-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -382,10 +377,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_ISO9001.png',
-            className: 'li89na4evz-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -402,10 +394,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_ISO27001.png',
-            className: 'li89ptaye9j-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -422,10 +411,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_ISO14001.png',
-            className: 'li89px3uati-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -442,10 +428,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_ISO20000-1.png',
-            className: 'li89q10eh0k-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -466,10 +449,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_patent714.png',
-            className: 'li89q4lpkf-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -492,10 +472,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_patent429.png',
-            className: 'li89q7b449-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -516,10 +493,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_fwxyAAA.png',
-            className: 'li89mmukcol-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -538,10 +512,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_htxyAAA.png',
-            className: 'li89nos7tuj-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -560,10 +531,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_zlxyAAA.png',
-            className: 'li89nx2k7jt-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -584,10 +552,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_cxjyAAA.png',
-            className: 'li89oalfww-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -608,10 +573,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_qyxyAAA.png',
-            className: 'li89ohtab-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -630,10 +592,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_fwcxAAA.png',
-            className: 'li89ons1dja-editor_css',
-          },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -651,13 +610,8 @@ export const Content50DataSource = {
         md: 6,
         xs: 24,
         children: {
-          wrapper: {
-            className: 'content5-block-content li89t1toi9t-editor_css',
-          },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_rz.png',
-            className: 'li89ot2ays-editor_css',
-          },
+          wrapper: { className: 'content5-block-content' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
           content: {
             children: (
               <span>
@@ -721,35 +675,31 @@ export const Content130DataSource = {
                                               <span>
                                                 <span>
                                                   <span>
-                                                    <span>
+                                                    <p>
+                                                      <b>
+                                                        &nbsp; &nbsp; &nbsp;
+                                                        &nbsp;
+                                                        上海景宇智能科技集团有限公司，简称“景宇智能”
+                                                      </b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
+                                                    </p>
+                                                    <p>
+                                                      <br />
+                                                    </p>
+                                                    <p>
                                                       <span>
-                                                        <p>
-                                                          <b>
-                                                            &nbsp; &nbsp; &nbsp;
-                                                            &nbsp;
-                                                            上海景宇宙智能科技集团有限公司，简称“景宇智能”
-                                                          </b>，国家高新技术企业，上海市专精特新企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
-                                                        </p>
-                                                        <p>
-                                                          <br />
-                                                        </p>
-                                                        <p>
-                                                          <span>
-                                                            &nbsp; &nbsp; &nbsp;
-                                                            &nbsp;原名“上海景域智能科技有限公司”，
-                                                          </span>
-                                                          <b>
-                                                            隶属于中国旅游20强上海景域集团
-                                                          </b>
-                                                          <span>
-                                                            ，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，<b
-                                                            >
-                                                              是国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
-                                                            </b>
-                                                          </span>
-                                                        </p>
+                                                        &nbsp; &nbsp; &nbsp;
+                                                        &nbsp;原名“上海景域智能科技有限公司”，
                                                       </span>
-                                                    </span>
+                                                      <b>
+                                                        隶属于中国旅游20强上海景域集团
+                                                      </b>
+                                                      <span>
+                                                        ，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，<b
+                                                        >
+                                                          是国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
+                                                        </b>
+                                                      </span>
+                                                    </p>
                                                   </span>
                                                 </span>
                                               </span>
@@ -796,7 +746,7 @@ export const Footer12DataSource = {
         className: 'block les8ozbxymn-editor_css',
         title: {
           className: 'logo les8oynd40m-editor_css',
-          children: 'https://openyou.life/joyuai/logo_vertical.png',
+          children: 'https://e.joyuai.com/joyuai/logo_vertical.png',
         },
         childWrapper: {
           className: 'slogan',

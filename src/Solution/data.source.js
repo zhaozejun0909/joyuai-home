@@ -14,7 +14,7 @@ export const Nav00DataSource = {
         name: 'item1',
         className: 'header0-item',
         children: {
-          href: 'https://openyou.life/',
+          href: 'https://e.joyuai.com/',
           children: [
             {
               children: (
@@ -134,7 +134,7 @@ export const Content50DataSource = {
             <p>解决方案</p>
           </span>
         ),
-        className: 'title-h1 li8blheik5-editor_css',
+        className: 'title-h1',
       },
       {
         name: 'content',
@@ -155,8 +155,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_1@2x.png',
-            className: 'li87gefj7l-editor_css',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
           },
           content: {
             children: (
@@ -166,7 +165,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8bqg7bre9-editor_css',
           },
         },
       },
@@ -178,7 +176,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_2@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
             className: 'lfwcdp24k8p-editor_css',
           },
           content: {
@@ -189,7 +187,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8bqu8sulf-editor_css',
           },
         },
       },
@@ -201,8 +198,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_3@2x.png',
-            className: 'li88c9irkzl-editor_css',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
           },
           content: {
             children: (
@@ -214,7 +210,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8bqy24uq-editor_css',
           },
         },
       },
@@ -226,8 +221,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_4@2x.png',
-            className: 'li88cfxjd8u-editor_css',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
           },
           content: {
             children: (
@@ -237,7 +231,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8br1n02ep-editor_css',
           },
         },
       },
@@ -249,8 +242,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_5@2x.png',
-            className: 'li88cnhkvmf-editor_css',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
           },
           content: {
             children: (
@@ -260,7 +252,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8br5g0xo-editor_css',
           },
         },
       },
@@ -272,8 +263,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_6@2x.png',
-            className: 'li88cva8ix8-editor_css',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
           },
           content: {
             children: (
@@ -283,7 +273,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8br8vtom-editor_css',
           },
         },
       },
@@ -295,8 +284,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_7@2x.png',
-            className: 'li88d07wh5b-editor_css',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
           },
           content: {
             children: (
@@ -306,7 +294,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8brccsld7-editor_css',
           },
         },
       },
@@ -320,8 +307,7 @@ export const Content50DataSource = {
             className: 'content5-block-content lescxk4gwy-editor_css',
           },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_8@2x.png',
-            className: 'li88d5n1rhq-editor_css',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
           },
           content: {
             children: (
@@ -331,7 +317,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8brfjum8i-editor_css',
           },
         },
       },
@@ -343,8 +328,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_9@2x.png',
-            className: 'li88damsh1u-editor_css',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
           },
           content: {
             children: (
@@ -356,7 +340,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8brjc6qno-editor_css',
           },
         },
       },
@@ -368,8 +351,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://openyou.life/joyuai/pic_solution_10@2x.png',
-            className: 'li88dfnofsa-editor_css',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
           },
           content: {
             children: (
@@ -379,32 +361,6 @@ export const Content50DataSource = {
                 </span>
               </span>
             ),
-            className: 'li8brmj4v87-editor_css',
-          },
-        },
-      },
-      {
-        name: 'block~li88mg1iyrp',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: {
-            children: 'https://openyou.life/joyuai/pic_solution_11@2x.png',
-            className: 'li88dfnofsa-editor_css',
-          },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <span>
-                    <p>一体化 多场景 智能感知</p>
-                  </span>
-                </span>
-              </span>
-            ),
-            className: 'li8brpdomej-editor_css',
           },
         },
       },

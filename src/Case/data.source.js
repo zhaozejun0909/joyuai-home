@@ -14,7 +14,7 @@ export const Nav00DataSource = {
         name: 'item1',
         className: 'header0-item',
         children: {
-          href: 'https://openyou.life/',
+          href: 'https://e.joyuai.com/',
           children: [
             {
               children: (
@@ -134,7 +134,6 @@ export const Feature00DataSource = {
             <p>成功案例</p>
           </span>
         ),
-        className: 'li8blyqvk2d-editor_css',
       },
     ],
   },
@@ -152,12 +151,11 @@ export const Feature00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children:
-                'https://openyou.life/joyuai/icon_shanghai_nor_120@3x.png',
+              children: 'https://e.joyuai.com/joyuai/icon_xiyu_nor_120@3x.png',
             },
             {
               name: 'title',
-              className: 'content0-block-title li8bm5uf93h-editor_css',
+              className: 'content0-block-title',
               children: (
                 <span>
                   <p>游上海</p>
@@ -190,11 +188,11 @@ export const Feature00DataSource = {
               name: 'image',
               className: 'content0-block-icon',
               children:
-                'https://openyou.life/joyuai/icon_shanxi_nor_120@3x.png',
+                'https://e.joyuai.com/joyuai/icon_shanxi_nor_120@3x.png',
             },
             {
               name: 'title',
-              className: 'content0-block-title li8bmbdgqum-editor_css',
+              className: 'content0-block-title',
               children: (
                 <span>
                   <p>游山西</p>
@@ -205,13 +203,9 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <span>
-                    <span>
-                      <p>
-                        游山西App，面向山西游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现一站式服务。
-                      </p>
-                    </span>
-                  </span>
+                  <p>
+                    游山西App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
+                  </p>
                 </span>
               ),
               className: 'lfq7r1mdnk-editor_css',
@@ -230,11 +224,12 @@ export const Feature00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children: 'https://openyou.life/joyuai/icon_hubei_nor_120@3x.png',
+              children:
+                'https://e.joyuai.com/joyuai/icon_shanghai_nor_120@3x.png',
             },
             {
               name: 'title',
-              className: 'content0-block-title li8bmgock49-editor_css',
+              className: 'content0-block-title',
               children: (
                 <span>
                   <p>游湖北</p>
@@ -245,11 +240,9 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <span>
-                    <p>
-                      游湖北App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现一站式服务。
-                    </p>
-                  </span>
+                  <p>
+                    游湖北App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
+                  </p>
                 </span>
               ),
               className: 'lfq7r3q0tyn-editor_css',
@@ -268,11 +261,11 @@ export const Feature00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon lewbep8om5o-editor_css',
-              children: 'https://openyou.life/joyuai/icon_xiyu_nor_120@3x.png',
+              children: 'https://e.joyuai.com/joyuai/icon_xiyu_nor_120@3x.png',
             },
             {
               name: 'title',
-              className: 'content0-block-title li8bmkf1o2c-editor_css',
+              className: 'content0-block-title',
               children: (
                 <span>
                   <span>

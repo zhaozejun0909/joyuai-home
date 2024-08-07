@@ -176,12 +176,9 @@ export const Feature10DataSource = {
   OverPack: {
     className: 'home-page content1 lew78kvt6u6-editor_css',
     playScale: 0.3,
-    gutter: 1,
-    appear: false,
-    always: false,
   },
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
-  img: { children: 'https://openyou.life/joyuai/logo_vertical.png' },
+  img: { children: 'https://e.joyuai.com/joyuai/logo_vertical.png' },
   textWrapper: {
     className: 'content1-text lesa4xluhv-editor_css',
     md: 14,
@@ -201,24 +198,20 @@ export const Feature10DataSource = {
       <span>
         <span>
           <span>
-            <span>
-              <span>
-                <p>
-                  <b>上海景宇宙智能科技集团有限公司，简称“景宇智能”</b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
-                </p>
-                <p>
-                  <br />
-                </p>
-                <p>
-                  原名“上海景域智能科技有限公司”，<b>
-                    隶属于中国旅游20强上海景域驴妈妈集团
-                  </b>，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，是<b
-                  >
-                    国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
-                  </b>
-                </p>
-              </span>
-            </span>
+            <p>
+              <b>上海景宇智能科技集团有限公司，简称“景宇智能”</b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
+            </p>
+            <p>
+              <br />
+            </p>
+            <p>
+              原名“上海景域智能科技有限公司”，<b>
+                隶属于中国旅游20强上海景域驴妈妈集团
+              </b>，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，是<b
+              >
+                国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
+              </b>
+            </p>
           </span>
         </span>
       </span>
@@ -280,7 +273,7 @@ export const Feature11DataSource = {
     xs: 24,
   },
   img: {
-    children: 'https://openyou.life/joyuai/logo_joyu.png',
+    children: 'https://e.joyuai.com/joyuai/logo_joyu.png',
     className: 'lew6xh8p0bp-editor_css',
   },
   textWrapper: {
@@ -320,7 +313,7 @@ export const Feature70DataSource = {
     children: [
       {
         name: 'title',
-        className: 'feature7-title-h1 li89gifxm2t-editor_css',
+        className: 'feature7-title-h1',
         children: (
           <span>
             <p>公司优势</p>
@@ -329,7 +322,7 @@ export const Feature70DataSource = {
       },
       {
         name: 'content',
-        className: 'feature7-title-content li8b4i34t1f-editor_css',
+        className: 'feature7-title-content',
         children: (
           <span>
             <p>有深度 更全面 规模承载 经营赋能 有创新 增收益 有高度 重效果</p>
@@ -339,7 +332,7 @@ export const Feature70DataSource = {
     ],
   },
   blockWrapper: {
-    className: 'feature7-block-wrapper li8c3wh0rio-editor_css',
+    className: 'feature7-block-wrapper',
     gutter: 24,
     children: [
       {
@@ -367,7 +360,7 @@ export const Feature70DataSource = {
             },
             {
               name: 'content',
-              className: 'feature7-block-content li8b4o4f3eg-editor_css',
+              className: 'feature7-block-content',
               children: (
                 <span>
                   <span>
@@ -412,7 +405,7 @@ export const Feature70DataSource = {
             },
             {
               name: 'content',
-              className: 'feature7-block-content li8b5pqhgi8-editor_css',
+              className: 'feature7-block-content',
               children: (
                 <span>
                   <p>
@@ -449,7 +442,7 @@ export const Feature70DataSource = {
             },
             {
               name: 'content',
-              className: 'feature7-block-content li8b5l7dc4c-editor_css',
+              className: 'feature7-block-content',
               children: (
                 <span>
                   <p>
@@ -486,7 +479,7 @@ export const Feature70DataSource = {
             },
             {
               name: 'content',
-              className: 'feature7-block-content li8b59i88v-editor_css',
+              className: 'feature7-block-content',
               children: (
                 <span>
                   <p>
@@ -626,7 +619,7 @@ export const Content120DataSource = {
             <p>合作伙伴</p>
           </span>
         ),
-        className: 'title-h1 li89h67ixg-editor_css',
+        className: 'title-h1',
       },
       {
         name: 'image~lfwavgsr1f',
