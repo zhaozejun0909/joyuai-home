@@ -61,7 +61,9 @@ export const Nav00DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>解决方案</p>
+                      <span>
+                        <p>产品体系</p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -360,7 +362,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_ISO45001.png' },
           content: {
             children: (
               <span>
@@ -377,7 +379,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_ISO9001.png' },
           content: {
             children: (
               <span>
@@ -394,7 +396,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_ISO27001.png' },
           content: {
             children: (
               <span>
@@ -411,7 +413,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_ISO14001.png' },
           content: {
             children: (
               <span>
@@ -428,7 +430,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_ISO20000-1.png' },
           content: {
             children: (
               <span>
@@ -449,7 +451,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_patent714.png' },
           content: {
             children: (
               <span>
@@ -472,7 +474,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_patent429.png' },
           content: {
             children: (
               <span>
@@ -493,7 +495,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_fwxyAAA.png' },
           content: {
             children: (
               <span>
@@ -512,7 +514,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_htxyAAA.png' },
           content: {
             children: (
               <span>
@@ -531,7 +533,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_zlxyAAA.png' },
           content: {
             children: (
               <span>
@@ -552,7 +554,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_cxjyAAA.png' },
           content: {
             children: (
               <span>
@@ -573,7 +575,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_qyxyAAA.png' },
           content: {
             children: (
               <span>
@@ -592,7 +594,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_fwcxAAA.png' },
           content: {
             children: (
               <span>
@@ -611,7 +613,7 @@ export const Content50DataSource = {
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_gq.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_rz.png' },
           content: {
             children: (
               <span>
@@ -675,31 +677,33 @@ export const Content130DataSource = {
                                               <span>
                                                 <span>
                                                   <span>
-                                                    <p>
-                                                      <b>
-                                                        &nbsp; &nbsp; &nbsp;
-                                                        &nbsp;
-                                                        上海景宇智能科技集团有限公司，简称“景宇智能”
-                                                      </b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
-                                                    </p>
-                                                    <p>
-                                                      <br />
-                                                    </p>
-                                                    <p>
-                                                      <span>
-                                                        &nbsp; &nbsp; &nbsp;
-                                                        &nbsp;原名“上海景域智能科技有限公司”，
-                                                      </span>
-                                                      <b>
-                                                        隶属于中国旅游20强上海景域集团
-                                                      </b>
-                                                      <span>
-                                                        ，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，<b
-                                                        >
-                                                          是国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
+                                                    <span>
+                                                      <p>
+                                                        <b>
+                                                          &nbsp; &nbsp; &nbsp;
+                                                          &nbsp;
+                                                          上海景宇宙智能科技集团有限公司，简称“景宇智能”
+                                                        </b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
+                                                      </p>
+                                                      <p>
+                                                        <br />
+                                                      </p>
+                                                      <p>
+                                                        <span>
+                                                          &nbsp; &nbsp; &nbsp;
+                                                          &nbsp;原名“上海景域智能科技有限公司”，
+                                                        </span>
+                                                        <b>
+                                                          隶属于中国旅游20强上海景域集团
                                                         </b>
-                                                      </span>
-                                                    </p>
+                                                        <span>
+                                                          ，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，<b
+                                                          >
+                                                            是国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
+                                                          </b>
+                                                        </span>
+                                                      </p>
+                                                    </span>
                                                   </span>
                                                 </span>
                                               </span>
@@ -781,7 +785,11 @@ export const Footer12DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>联系地址：上海市景域大道88号驴妈妈科技园</p>
+                  <span>
+                    <span>
+                      <p>联系地址：上海市嘉定区景域大道88号</p>
+                    </span>
+                  </span>
                 </span>
               ),
               className: 'les8lm7w1tt-editor_css',

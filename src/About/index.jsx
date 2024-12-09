@@ -14,8 +14,6 @@ import {
   Nav00DataSource,
   Content130DataSource,
   Feature10DataSource,
-  Feature12DataSource,
-  Feature11DataSource,
   Feature70DataSource,
   Content120DataSource,
   Footer10DataSource,
@@ -74,18 +72,6 @@ export default class Home extends React.Component {
         id="Feature1_0"
         key="Feature1_0"
         dataSource={Feature10DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature1
-        id="Feature1_2"
-        key="Feature1_2"
-        dataSource={Feature12DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature1
-        id="Feature1_1"
-        key="Feature1_1"
-        dataSource={Feature11DataSource}
         isMobile={this.state.isMobile}
       />,
       <Feature7

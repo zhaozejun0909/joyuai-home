@@ -59,11 +59,7 @@ export const Nav00DataSource = {
             {
               children: (
                 <span>
-                  <span>
-                    <span>
-                      <p>解决方案</p>
-                    </span>
-                  </span>
+                  <p>产品体系</p>
                 </span>
               ),
               name: 'text',
@@ -131,7 +127,9 @@ export const Content50DataSource = {
         name: 'title',
         children: (
           <span>
-            <p>解决方案</p>
+            <span>
+              <p>产品体系</p>
+            </span>
           </span>
         ),
         className: 'title-h1',
@@ -176,7 +174,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_2@2x.png',
             className: 'lfwcdp24k8p-editor_css',
           },
           content: {
@@ -198,7 +196,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_3@2x.png',
           },
           content: {
             children: (
@@ -221,7 +219,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_4@2x.png',
           },
           content: {
             children: (
@@ -242,7 +240,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_5@2x.png',
           },
           content: {
             children: (
@@ -263,7 +261,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_6@2x.png',
           },
           content: {
             children: (
@@ -284,7 +282,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_7@2x.png',
           },
           content: {
             children: (
@@ -307,7 +305,7 @@ export const Content50DataSource = {
             className: 'content5-block-content lescxk4gwy-editor_css',
           },
           img: {
-            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_8@2x.png',
           },
           content: {
             children: (
@@ -328,7 +326,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_9@2x.png',
           },
           content: {
             children: (
@@ -351,7 +349,7 @@ export const Content50DataSource = {
         children: {
           wrapper: { className: 'content5-block-content' },
           img: {
-            children: 'https://e.joyuai.com/joyuai/pic_solution_1@2x.png',
+            children: 'https://e.joyuai.com/joyuai/pic_solution_10@2x.png',
           },
           content: {
             children: (
@@ -402,7 +400,9 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <p>上海景宇智能科技集团有限公司</p>
+              <span>
+                <p>上海景宇宙智能科技集团有限公司</p>
+              </span>
             </span>
           ),
           className: 'lef1hh63x3-editor_css',
@@ -414,7 +414,13 @@ export const Footer10DataSource = {
               className: 'lew6kgczr88-editor_css',
               children: (
                 <span>
-                  <p>联系地址：上海市景域大道88号驴妈妈科技园</p>
+                  <span>
+                    <span>
+                      <p>
+                        <u>联系地址：上海市嘉定区景域大道88号</u>
+                      </p>
+                    </span>
+                  </span>
                 </span>
               ),
             },

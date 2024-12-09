@@ -72,7 +72,9 @@ export const Nav00DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>解决方案</p>
+                          <span>
+                            <p>产品体系</p>
+                          </span>
                         </span>
                       </span>
                     </span>
@@ -198,106 +200,24 @@ export const Feature10DataSource = {
       <span>
         <span>
           <span>
-            <p>
-              <b>上海景宇智能科技集团有限公司，简称“景宇智能”</b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
-            </p>
-            <p>
-              <br />
-            </p>
-            <p>
-              原名“上海景域智能科技有限公司”，<b>
-                隶属于中国旅游20强上海景域驴妈妈集团
-              </b>，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，是<b
-              >
-                国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
-              </b>
-            </p>
+            <span>
+              <p>
+                <b>上海景宇智能科技集团有限公司，简称“景宇智能”</b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
+              </p>
+              <p>
+                <br />
+              </p>
+              <p>
+                原名“上海景域智能科技有限公司”，<b>
+                  隶属于中国旅游20强上海景域集团
+                </b>，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，是<b
+                >
+                  国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
+                </b>
+              </p>
+            </span>
           </span>
         </span>
-      </span>
-    ),
-  },
-};
-export const Feature12DataSource = {
-  wrapper: {
-    className: 'home-page-wrapper content1-wrapper lesdcwm820s-editor_css',
-  },
-  OverPack: {
-    className: 'home-page content1 lew70hc02ou-editor_css',
-    playScale: 0.3,
-  },
-  imgWrapper: {
-    className: 'content1-img lesdcdu1iwa-editor_css',
-    md: 10,
-    xs: 24,
-  },
-  img: {
-    children: 'https://www.kchance.com/Public/images/f-logo.png',
-    className: 'lesdcang7o8-editor_css',
-  },
-  textWrapper: {
-    className: 'content1-text lesdhdu95oq-editor_css',
-    md: 14,
-    xs: 24,
-  },
-  title: {
-    className: 'content1-title lesdkgpe9a-editor_css',
-    children: (
-      <span>
-        <p>奇创旅游集团</p>
-      </span>
-    ),
-  },
-  content: {
-    className: 'content1-content lesdkera99i-editor_css',
-    children: (
-      <span>
-        <p>
-          <b>奇创旅游集团</b>是以科技驱动的文旅综合运营服务商。为景区和目的地创造高质量旅游产品和场景，为游客创造更加美好体验。深耕行业20年，奇创以规投建运销一体化实效服务，从盘活旅游存量、创新有效增量等多角度入手，用运营前置的思维来做规划和建设，系统解决文旅目的地及文旅项目开发过程中“规划不对投资负责、投资不对运营负责”的行业弊病，累计完成文旅项目近4000个，参与运营景区近百个，足迹遍及全国。
-        </p>
-      </span>
-    ),
-  },
-};
-export const Feature11DataSource = {
-  wrapper: {
-    className: 'home-page-wrapper content1-wrapper lesbnebdy2e-editor_css',
-  },
-  OverPack: {
-    className: 'home-page content1 lesdhxyv4eu-editor_css',
-    playScale: 0.3,
-  },
-  imgWrapper: {
-    className: 'content1-img lew6xq8491a-editor_css',
-    md: 10,
-    xs: 24,
-  },
-  img: {
-    children: 'https://e.joyuai.com/joyuai/logo_joyu.png',
-    className: 'lew6xh8p0bp-editor_css',
-  },
-  textWrapper: {
-    className: 'content1-text lesay12ca5s-editor_css',
-    md: 14,
-    xs: 24,
-  },
-  title: {
-    className: 'content1-title lesdkkgfny-editor_css',
-    children: (
-      <span>
-        <span>
-          <p>景域驴妈妈集团</p>
-        </span>
-      </span>
-    ),
-  },
-  content: {
-    className: 'content1-content lesdklv1tvs-editor_css',
-    children: (
-      <span>
-        <p>
-          <b>景域驴妈妈集团</b>是以旅游互联网服务、旅游规划设计、旅游IP投资、景区投资运营管理、智慧旅游等为主业，构建起国内领先的旅游科技+产业链集团集团。旗下拥有奇创旅游集团（旅游规划设计、文旅项目投资建设及运营、奇创网络科技、山海经科技、犀奇数字科技）、景域鲸鱼旅游集团以及驴妈妈旅游网等众多板块。
-        </p>
       </span>
     ),
   },
@@ -759,9 +679,11 @@ export const Footer10DataSource = {
               className: 'lew6hhy0vj-editor_css',
               children: (
                 <span>
-                  <p>
-                    联系地址：上海市景域大道88号驴妈妈科技园<br />
-                  </p>
+                  <span>
+                    <p>
+                      联系地址：上海市嘉定区景域大道88号<br />
+                    </p>
+                  </span>
                 </span>
               ),
             },

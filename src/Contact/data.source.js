@@ -57,7 +57,7 @@ export const Nav01DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>解决方案</p>
+                    <p>产品体系</p>
                   </span>
                 </span>
               ),
@@ -149,7 +149,7 @@ export const Feature10DataSource = {
         <span>
           <span>
             <span>
-              <p>联系地址：上海市景域大道88号驴妈妈科技园</p>
+              <p>联系地址：上海市嘉定区景域大道88号</p>
               <p>联系电话：021-60561616</p>
               <p>
                 电子邮箱：mkt@joyuai.com<br />

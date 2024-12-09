@@ -61,7 +61,9 @@ export const Nav00DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>解决方案</p>
+                      <span>
+                        <p>产品体系</p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -151,14 +153,17 @@ export const Feature00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children: 'https://e.joyuai.com/joyuai/icon_xiyu_nor_120@3x.png',
+              children:
+                'https://e.joyuai.com/joyuai/icon_shanghai_nor_120@3x.png',
             },
             {
               name: 'title',
               className: 'content0-block-title',
               children: (
                 <span>
-                  <p>游上海</p>
+                  <span>
+                    <p>上海数智化平台</p>
+                  </span>
                 </span>
               ),
             },
@@ -195,7 +200,9 @@ export const Feature00DataSource = {
               className: 'content0-block-title',
               children: (
                 <span>
-                  <p>游山西</p>
+                  <span>
+                    <p>山西数智化平台</p>
+                  </span>
                 </span>
               ),
             },
@@ -203,9 +210,17 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>
-                    游山西App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
-                  </p>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>
+                            山西数智化平台，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
+                          </p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
               className: 'lfq7r1mdnk-editor_css',
@@ -224,15 +239,20 @@ export const Feature00DataSource = {
             {
               name: 'image',
               className: 'content0-block-icon',
-              children:
-                'https://e.joyuai.com/joyuai/icon_shanghai_nor_120@3x.png',
+              children: 'https://e.joyuai.com/joyuai/icon_hubei_nor_120@3x.png',
             },
             {
               name: 'title',
               className: 'content0-block-title',
               children: (
                 <span>
-                  <p>游湖北</p>
+                  <span>
+                    <span>
+                      <span>
+                        <p>湖北数智化平台</p>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -240,9 +260,13 @@ export const Feature00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>
-                    游湖北App，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
-                  </p>
+                  <span>
+                    <span>
+                      <p>
+                        湖北数智化平台，面向湖北游客和居民，整合全省范围内“食、住、行、游、购、娱”等各项文化旅游资源，实现（一站式服务）。
+                      </p>
+                    </span>
+                  </span>
                 </span>
               ),
               className: 'lfq7r3q0tyn-editor_css',
@@ -268,9 +292,7 @@ export const Feature00DataSource = {
               className: 'content0-block-title',
               children: (
                 <span>
-                  <span>
-                    <p>游西域</p>
-                  </span>
+                  <p>西域数智化平台</p>
                 </span>
               ),
             },
@@ -340,7 +362,11 @@ export const Footer10DataSource = {
               className: 'lescfg5f5jn-editor_css',
               children: (
                 <span>
-                  <p>联系地址：上海市景域大道88号驴妈妈科技园</p>
+                  <span>
+                    <span>
+                      <p>联系地址：上海市嘉定区景域大道88号</p>
+                    </span>
+                  </span>
                 </span>
               ),
             },
