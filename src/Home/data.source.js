@@ -132,7 +132,16 @@ export const Banner00DataSource = {
     className: 'banner0-content lewbuiev6g9-editor_css',
     children: (
       <span>
-        <p>科技助力中国文旅产业数字化升级</p>
+        <span>
+          <span>
+            <span>
+              <span>
+                <p>助推文旅产业数字化智能化升级&nbsp;</p>
+                <p>助力文旅企业业务有效增长</p>
+              </span>
+            </span>
+          </span>
+        </span>
       </span>
     ),
   },
@@ -160,7 +169,9 @@ export const Content00DataSource = {
         children: (
           <span>
             <span>
-              <p>主营业务</p>
+              <span>
+                <p>优势源于</p>
+              </span>
             </span>
           </span>
         ),
@@ -190,7 +201,11 @@ export const Content00DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>政府文旅</p>
+                    <span>
+                      <span>
+                        <p>AI伴游应用</p>
+                      </span>
+                    </span>
                   </span>
                 </span>
               ),
@@ -201,9 +216,16 @@ export const Content00DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>
-                        各级目的地政府智慧文旅及数字化转型（省级文旅厅/市级文旅局/区县文旅局）
-                      </p>
+                      <span>
+                        <span>
+                          <span>
+                            <p>
+                              依托先进 AI
+                              大模型与文旅行业大数据，精准把握游客需求，给予个性化服务，涵盖行程规划、景点讲解、资讯问询、产品购买及情感陪伴等，让旅行更实惠、轻松、愉悦且难忘。
+                            </p>
+                          </span>
+                        </span>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -230,7 +252,9 @@ export const Content00DataSource = {
               className: 'content0-block-title',
               children: (
                 <span>
-                  <p>数字企业</p>
+                  <span>
+                    <p>票务系统</p>
+                  </span>
                 </span>
               ),
             },
@@ -239,9 +263,11 @@ export const Content00DataSource = {
               children: (
                 <span>
                   <span>
-                    <p>
-                      大型文旅企业集团多业态整合数字化升级（旅投/文投集团/文旅综合集团/酒店集团）
-                    </p>
+                    <span>
+                      <p>
+                        大型文旅企业集团多业态整合数字化升级（旅投/文投集团/文旅综合集团/酒店集团）
+                      </p>
+                    </span>
                   </span>
                 </span>
               ),
@@ -251,6 +277,219 @@ export const Content00DataSource = {
       },
       {
         name: 'block2',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children: 'https://e.joyuai.com/joyuai/icon_space_nor_120.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <p>元宇宙解决方案</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>
+                            文旅元宇宙解决方案以沉浸式体验、强交互性、无限扩展性，创造经济价值，助力高效协作沟通且依数据驱动决策，突破文旅传统边界，为产业注入新活力与多元可能。{' '}
+                          </p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~m4m4c9y5gd',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children: 'https://e.joyuai.com/joyuai/icon_space_nor_120.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <p>省级平台经验</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>
+                        各级目的地政府智慧文旅及数字化转型（省级文旅厅/市级文旅局/区县文旅局）
+                      </p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~m4m4ce5lm9s',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children: 'https://e.joyuai.com/joyuai/icon_space_nor_120.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <p>文旅全产业链</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>
+                        大型文旅企业集团多业态整合数字化升级（旅投/文投集团/文旅综合集团/酒店集团）
+                      </p>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~m4m4cftnb6s',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children: 'https://e.joyuai.com/joyuai/icon_space_nor_120.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <p>5A景区实施经验</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <p>
+                              以头部多家5A景区为基础，成功实施大型文旅目的地数字化转型，大幅提升文旅目的地营收规模。
+                            </p>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~m4m4cgxd8bn',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children: 'https://e.joyuai.com/joyuai/icon_space_nor_120.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <p>头部OTA经验</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <p>
+                      泛文旅下线空间新技术新体验应用（景区/乐园/公园/文化/美术/科技馆/博物馆/图书馆）
+                    </p>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
+      {
+        name: 'block~m4m4civ8nz',
         className: 'content0-block',
         md: 8,
         xs: 24,
@@ -286,6 +525,49 @@ export const Content00DataSource = {
           ],
         },
       },
+      {
+        name: 'block~m4qnep1y1qn',
+        className: 'content0-block',
+        md: 8,
+        xs: 24,
+        children: {
+          className: 'content0-block-item',
+          children: [
+            {
+              name: 'image',
+              className: 'content0-block-icon',
+              children: 'https://e.joyuai.com/joyuai/icon_space_nor_120.png',
+            },
+            {
+              name: 'title',
+              className: 'content0-block-title',
+              children: (
+                <span>
+                  <span>
+                    <p>文旅供应链平台</p>
+                  </span>
+                </span>
+              ),
+            },
+            {
+              name: 'content',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>
+                          文旅供应链是集采集供、推动产业融合与业态创新的综合体系。借高效资源整合，达成文旅产品集采供应，促进产业深度融合。且积极探索新模式、新路径，为文旅产业繁荣注入活力与动能。{' '}
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
+            },
+          ],
+        },
+      },
     ],
   },
 };
@@ -313,10 +595,21 @@ export const Content50DataSource = {
         children: (
           <span>
             <span>
-              <p>
-                {' '}
-                公司掌握核心技术和自主知识产权，累计申请各类管理证书5项、3A认证6项、专利2项、软件著作权19项，产品全方位覆盖智慧旅游的营销、管理和服务领域；与政府、景区、旅游集团、旅游目的地协同合作，引领并推动产业升级和服务创新。
-              </p>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <p>
+                        公司重视核心技术与自主知识产权，获多项管理证书、3A
+                        认证、专利与软件著作权，为产品筑牢根基。产品全面覆盖智慧旅游营销、管理与服务领域，凭借技术优势与多元功能，满足各类客户需求。<span
+                        >
+                          公司与政府、景区、旅游集团及目的地协同合作，整合资源，发挥专长，引领智慧旅游产业升级与服务创新，为行业发展注入新动力，优化产业生态。&nbsp;
+                        </span>
+                      </p>
+                    </span>
+                  </span>
+                </span>
+              </span>
             </span>
           </span>
         ),
@@ -356,17 +649,137 @@ export const Content50DataSource = {
         },
       },
       {
-        name: 'block1',
+        name: 'block~les4643ugy',
         className: 'block',
         md: 6,
         xs: 24,
         children: {
           wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_ISO45001.png' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_zlxyAAA.png' },
           content: {
             children: (
               <span>
-                <p>ISO 45001:2018 职业健康安全管理体系认证</p>
+                <span>
+                  <span>
+                    <p>AAA级重质量守信用单位</p>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block~les463fsau',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_htxyAAA.png' },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>AAA级重合同守信用企业</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block~les464piz1u',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_cxjyAAA.png' },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <span>
+                    <p>AAA级诚信经营示范单位</p>
+                  </span>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block~les465c2vuo',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_qyxyAAA.png' },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>AAA级企业信用等级证书</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block~les465vm6ec',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_fwcxAAA.png' },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>AAA级质量服务诚信单位</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block~les462nvsqc',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_fwxyAAA.png' },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>AAA级重服务守信用企业</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block~les467835vo',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_rz.png' },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>软件著作权数十项</p>
+                </span>
               </span>
             ),
           },
@@ -384,6 +797,23 @@ export const Content50DataSource = {
             children: (
               <span>
                 <p>ISO 9001:2015 质量管理体系CNAS认证</p>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block1',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: { children: 'https://e.joyuai.com/joyuai/pic_ISO45001.png' },
+          content: {
+            children: (
+              <span>
+                <p>ISO 45001:2018 职业健康安全管理体系认证</p>
               </span>
             ),
           },
@@ -488,251 +918,6 @@ export const Content50DataSource = {
           },
         },
       },
-      {
-        name: 'block~les462nvsqc',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_fwxyAAA.png' },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <p>AAA级重服务守信用企业</p>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block~les463fsau',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_htxyAAA.png' },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <p>AAA级重合同守信用企业</p>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block~les4643ugy',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_zlxyAAA.png' },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <span>
-                    <p>AAA级重质量守信用单位</p>
-                  </span>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block~les464piz1u',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_cxjyAAA.png' },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <span>
-                    <p>AAA级诚信经营示范单位</p>
-                  </span>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block~les465c2vuo',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_qyxyAAA.png' },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <p>AAA级企业信用等级证书</p>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block~les465vm6ec',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_fwcxAAA.png' },
-          content: {
-            children: (
-              <span>
-                <span>
-                  <p>AAA级质量服务诚信单位</p>
-                </span>
-              </span>
-            ),
-          },
-        },
-      },
-      {
-        name: 'block~les467835vo',
-        className: 'block',
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: 'content5-block-content' },
-          img: { children: 'https://e.joyuai.com/joyuai/pic_rz.png' },
-          content: {
-            children: (
-              <span>
-                <p>软件著作权19项</p>
-              </span>
-            ),
-          },
-        },
-      },
-    ],
-  },
-};
-export const Content130DataSource = {
-  OverPack: {
-    className: 'home-page-wrapper content13-wrapper le84t4ntzob-editor_css',
-    playScale: 0.3,
-  },
-  titleWrapper: {
-    className: 'title-wrapper le85gd7gs6q-editor_css',
-    children: [
-      {
-        name: 'image',
-        children:
-          'https://gw.alipayobjects.com/zos/rmsportal/PiqyziYmvbgAudYfhuBr.svg',
-        className: 'title-image le84v19ggsn-editor_css',
-      },
-      {
-        name: 'title',
-        children: (
-          <span>
-            <span>
-              <span>
-                <p>关于我们</p>
-              </span>
-            </span>
-          </span>
-        ),
-        className: 'title-h1 le859mt32sb-editor_css',
-      },
-      {
-        name: 'content',
-        children: (
-          <span>
-            <span>
-              <span>
-                <span>
-                  <span>
-                    <span>
-                      <span>
-                        <span>
-                          <span>
-                            <span>
-                              <span>
-                                <span>
-                                  <span>
-                                    <span>
-                                      <span>
-                                        <span>
-                                          <span>
-                                            <span>
-                                              <span>
-                                                <span>
-                                                  <span>
-                                                    <span>
-                                                      <p>
-                                                        <b>
-                                                          &nbsp; &nbsp; &nbsp;
-                                                          &nbsp;
-                                                          上海景宇宙智能科技集团有限公司，简称“景宇智能”
-                                                        </b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
-                                                      </p>
-                                                      <p>
-                                                        <br />
-                                                      </p>
-                                                      <p>
-                                                        <span>
-                                                          &nbsp; &nbsp; &nbsp;
-                                                          &nbsp;原名“上海景域智能科技有限公司”，
-                                                        </span>
-                                                        <b>
-                                                          隶属于中国旅游20强上海景域集团
-                                                        </b>
-                                                        <span>
-                                                          ，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，<b
-                                                          >
-                                                            是国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
-                                                          </b>
-                                                        </span>
-                                                      </p>
-                                                    </span>
-                                                  </span>
-                                                </span>
-                                              </span>
-                                            </span>
-                                          </span>
-                                        </span>
-                                      </span>
-                                    </span>
-                                  </span>
-                                </span>
-                              </span>
-                            </span>
-                          </span>
-                        </span>
-                      </span>
-                    </span>
-                  </span>
-                </span>
-              </span>
-            </span>
-          </span>
-        ),
-        className: 'title-content le84t8nzqhn-editor_css',
-      },
-      {
-        name: 'content2',
-        children: '现场问诊，为你答疑解难',
-        className: 'title-content le854yiiik9-editor_css',
-      },
     ],
   },
 };
@@ -750,7 +935,7 @@ export const Footer12DataSource = {
         className: 'block les8ozbxymn-editor_css',
         title: {
           className: 'logo les8oynd40m-editor_css',
-          children: 'https://e.joyuai.com/joyuai/logo_vertical.png',
+          children: 'https://e.joyuai.com/joyuai/pic_wxgzh.png',
         },
         childWrapper: {
           className: 'slogan',
@@ -787,7 +972,9 @@ export const Footer12DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>联系地址：上海市嘉定区景域大道88号</p>
+                      <span>
+                        <p>联系地址：上海市嘉定区景域大道88号3号楼</p>
+                      </span>
                     </span>
                   </span>
                 </span>
@@ -799,7 +986,11 @@ export const Footer12DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>联系电话：021-60561616</p>
+                  <span>
+                    <span>
+                      <p>微信公众号：景宇智能</p>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -817,7 +1008,15 @@ export const Footer12DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>合作热线：021-51212088-3335</p>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>合作热线：021-51212088-6309</p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
             },

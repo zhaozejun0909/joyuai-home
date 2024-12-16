@@ -315,7 +315,7 @@ export const Feature00DataSource = {
     ],
   },
 };
-export const Footer10DataSource = {
+export const Footer11DataSource = {
   wrapper: { className: 'home-page-wrapper footer1-wrapper' },
   OverPack: { className: 'footer1', playScale: 0.2 },
   block: {
@@ -326,18 +326,21 @@ export const Footer10DataSource = {
         name: 'block0',
         xs: 24,
         md: 6,
-        className: 'block lef1vozp3tn-editor_css',
+        className: 'block',
         title: {
           className: 'logo',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg',
+          children: 'https://e.joyuai.com/joyuai/pic_wxgzh.png',
         },
         childWrapper: {
           className: 'slogan',
           children: [
             {
               name: 'content0',
-              children: 'Animation specification and components of Ant Design.',
+              children: (
+                <span>
+                  <p>&nbsp;</p>
+                </span>
+              ),
             },
           ],
         },
@@ -346,45 +349,33 @@ export const Footer10DataSource = {
         name: 'block1',
         xs: 24,
         md: 6,
-        className: 'block lescghl4q77-editor_css',
+        className: 'block',
         title: {
           children: (
             <span>
               <p>上海景宇宙智能科技集团有限公司</p>
             </span>
           ),
-          className: 'lef22d3hozk-editor_css',
+          className: 'm4qoko4k0zr-editor_css',
         },
         childWrapper: {
           children: [
-            {
-              name: 'content~lescfefuf9m',
-              className: 'lescfg5f5jn-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>联系地址：上海市嘉定区景域大道88号</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
             {
               name: 'link0',
               href: '#',
               children: (
                 <span>
-                  <p>联系电话：021-60561616</p>
+                  <p>联系地址：上海市嘉定区景域大道88号</p>
                 </span>
               ),
+              className: 'm4qokxunck-editor_css',
             },
             {
               name: 'link1',
               href: '#',
               children: (
                 <span>
-                  <p>电子邮箱：mkt@joyuai.com</p>
+                  <p>微信公众号：景宇智能</p>
                 </span>
               ),
             },
@@ -393,42 +384,19 @@ export const Footer10DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>合作热线：021-51212088-3335</p>
+                  <p>电子邮箱：mkt@joyuai.com</p>
                 </span>
               ),
             },
             {
               name: 'link3',
               href: '#',
-              children: '参考指南',
-              className: 'lef23g4be89-editor_css',
+              children: (
+                <span>
+                  <p>合作热线：021-51212088-6309</p>
+                </span>
+              ),
             },
-          ],
-        },
-      },
-      {
-        name: 'block2',
-        xs: 24,
-        md: 6,
-        className: 'block lef1vx6n0s6-editor_css',
-        title: { children: '关于' },
-        childWrapper: {
-          children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
-            { href: '#', name: 'link1', children: '联系我们' },
-          ],
-        },
-      },
-      {
-        name: 'block3',
-        xs: 24,
-        md: 6,
-        className: 'block lef1vvdqbh8-editor_css',
-        title: { children: '资源' },
-        childWrapper: {
-          children: [
-            { href: '#', name: 'link0', children: 'Ant Design' },
-            { href: '#', name: 'link1', children: 'Ant Motion' },
           ],
         },
       },
@@ -437,16 +405,10 @@ export const Footer10DataSource = {
   copyrightWrapper: { className: 'copyright-wrapper' },
   copyrightPage: { className: 'home-page' },
   copyright: {
-    className: 'copyright lefhcgmys6q-editor_css',
+    className: 'copyright',
     children: (
       <span>
-        <span>
-          Copyright©2023,{' '}
-          <a href="https://www.joyuai.com" target="_blank">
-            www.joyuai.com
-          </a>{' '}
-          ｜ 沪ICP备19031977号-1<br />
-        </span>
+        <p>Copyright©2023, www.joyuai.com ｜ 沪ICP备19031977号-1</p>
       </span>
     ),
   },

@@ -7,7 +7,6 @@ import Nav0 from './Nav0';
 import Banner0 from './Banner0';
 import Content0 from './Content0';
 import Content5 from './Content5';
-import Content13 from './Content13';
 import Footer1 from './Footer1';
 import Point from './Point';
 import {
@@ -15,7 +14,6 @@ import {
   Banner00DataSource,
   Content00DataSource,
   Content50DataSource,
-  Content130DataSource,
   Footer12DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
@@ -39,7 +37,7 @@ export default class Home extends React.Component {
   componentDidMount() {
     /* 如果不是 dva 2.0 请使用以下代码
     // 实现整屏滚动
-    scrollScreen.init({ location: ['Banner0_0', 'Content0_0', 'Content5_0', 'Content13_0', 'Footer1_2'] });
+    scrollScreen.init({ location: ['Banner0_0', 'Content0_0', 'Content5_0', 'Footer1_2'] });
     */
     // 适配手机屏幕;
     enquireScreen((b) => {
@@ -55,13 +53,7 @@ export default class Home extends React.Component {
         });
         // 实现整屏滚动
         scrollScreen.init({
-          location: [
-            'Banner0_0',
-            'Content0_0',
-            'Content5_0',
-            'Content13_0',
-            'Footer1_2',
-          ],
+          location: ['Banner0_0', 'Content0_0', 'Content5_0', 'Footer1_2'],
         });
       }, 500);
     }
@@ -94,12 +86,6 @@ export default class Home extends React.Component {
         dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content13
-        id="Content13_0"
-        key="Content13_0"
-        dataSource={Content130DataSource}
-        isMobile={this.state.isMobile}
-      />,
       <Footer1
         id="Footer1_2"
         key="Footer1_2"
@@ -108,14 +94,7 @@ export default class Home extends React.Component {
       />, // 导航和页尾不进入锚点区，如果需要，自行添加;
       <Point
         key="list"
-        data={[
-          'Nav0_0',
-          'Banner0_0',
-          'Content0_0',
-          'Content5_0',
-          'Content13_0',
-          'Footer1_2',
-        ]}
+        data={['Nav0_0', 'Banner0_0', 'Content0_0', 'Content5_0', 'Footer1_2']}
       />,
     ];
     return (

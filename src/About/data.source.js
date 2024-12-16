@@ -180,7 +180,7 @@ export const Feature10DataSource = {
     playScale: 0.3,
   },
   imgWrapper: { className: 'content1-img', md: 10, xs: 24 },
-  img: { children: 'https://e.joyuai.com/joyuai/logo_vertical.png' },
+  img: { children: 'https://e.joyuai.com/joyuai/pic_wxgzh.png' },
   textWrapper: {
     className: 'content1-text lesa4xluhv-editor_css',
     md: 14,
@@ -201,20 +201,47 @@ export const Feature10DataSource = {
         <span>
           <span>
             <span>
-              <p>
-                <b>上海景宇智能科技集团有限公司，简称“景宇智能”</b>，国家高新技术企业，上海市级“城市数字化转型”示范企业，国家文旅部科技创新工程项目承接单位，国家文旅部重点实验室共建单位。
-              </p>
-              <p>
-                <br />
-              </p>
-              <p>
-                原名“上海景域智能科技有限公司”，<b>
-                  隶属于中国旅游20强上海景域集团
-                </b>，是文旅行业数字化智能化升级领军企业，是文旅产业互联网标杆公司，是智慧文旅综合解决方案提供商，是<b
-                >
-                  国内落地超过三个省的“省级智慧文旅”和多个5A景区“数字化创新运营”承建方及数字化酒店综合方案提供商。
-                </b>
-              </p>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <span>
+                                <span>
+                                  <span>
+                                    <span>
+                                      <span>
+                                        <p>
+                                          上海景宇宙智能科技集团有限公司，国家高新技术企业，上海市专精特新企业，国家文旅部创新工程项目承接单位，上海市“城市数字化转型”示范单位，是更注重效果和品质的智慧文旅综合解决方案提供商。
+                                        </p>
+                                        <p>
+                                          <br />
+                                        </p>
+                                        <p>
+                                          国内落地超过三个省的“省级官方智慧文旅”和多个5A景区“数字化创新运营”、“元宇宙体验项目”承建方。更注重实效与商业盈利闭环。
+                                        </p>
+                                        <p>
+                                          <br />
+                                        </p>
+                                        <p>
+                                          基于文旅全产业链多年积累及行业聚焦，景宇宙深析文旅行业需求，通过复用创新及综合方案，基于数字化智能化，助推国内文旅行业产业全面提档升级。&nbsp;
+                                        </p>
+                                      </span>
+                                    </span>
+                                  </span>
+                                </span>
+                              </span>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
             </span>
           </span>
         </span>
@@ -274,7 +301,9 @@ export const Feature70DataSource = {
               className: 'feature7-block-title lesbofq6jti-editor_css',
               children: (
                 <span>
-                  <p>文旅全产业链</p>
+                  <span>
+                    <p>AI伴游应用落地</p>
+                  </span>
                 </span>
               ),
             },
@@ -287,9 +316,13 @@ export const Feature70DataSource = {
                     <span>
                       <span>
                         <span>
-                          <p>
-                            所属集团深耕旅游行业18年，已连续10年获得中国旅游集团20强，覆盖文旅全产业链。至今已累计服务3000+品牌项目，足迹遍及全国。
-                          </p>
+                          <span>
+                            <span>
+                              <p>
+                                所属集团深耕旅游行业近20年，曾多次荣获中国旅游集团20强，覆盖文旅全产业链。至今已累计服务3000+品牌项目，足迹遍及全国。
+                              </p>
+                            </span>
+                          </span>
                         </span>
                       </span>
                     </span>
@@ -319,7 +352,11 @@ export const Feature70DataSource = {
               className: 'feature7-block-title lesbopcjmzq-editor_css',
               children: (
                 <span>
-                  <p>头部OTA经验</p>
+                  <span>
+                    <span>
+                      <p>景区智慧票务系统</p>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -328,9 +365,21 @@ export const Feature70DataSource = {
               className: 'feature7-block-content',
               children: (
                 <span>
-                  <p>
-                    超过2亿用户规模、超过10万合作商家、超过9亿下载、遍及全国110子公司高频交易系统承载和运营经验。
-                  </p>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <span>
+                            <span>
+                              <p>
+                                基于现代科技构建智能化票务系统，融合电子票务、移动支付与大数据技术，既为游客打造便捷购票与入园通道，又提升景区管理效能。{' '}
+                              </p>
+                            </span>
+                          </span>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -356,7 +405,9 @@ export const Feature70DataSource = {
               className: 'feature7-block-title lesbp3bmdgf-editor_css',
               children: (
                 <span>
-                  <p>5A景区实施标杆</p>
+                  <span>
+                    <p>元宇宙解决方案</p>
+                  </span>
                 </span>
               ),
             },
@@ -365,9 +416,17 @@ export const Feature70DataSource = {
               className: 'feature7-block-content',
               children: (
                 <span>
-                  <p>
-                    以5A景区天山天池为基础，成功实施大型文旅目的地数字化转型，大幅提升文旅目的地营收规模，实现A股ST摘帽。
-                  </p>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>
+                            以沉浸式体验、强交互性、个性化定制、无限扩展性，创造经济价值，助力高效协作沟通且依数据驱动决策，突破文旅传统边界，为产业注入新活力与多元可能。{' '}
+                          </p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -377,23 +436,25 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block3',
+        name: 'block~m4qh14bulxr',
         className: 'feature7-block',
         children: {
           className: 'feature7-block-group',
           children: [
             {
               name: 'image',
-              className: 'feature7-block-image lesbpew8cq-editor_css',
+              className: 'feature7-block-image lesbp42lh3f-editor_css',
               children:
                 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
             },
             {
               name: 'title',
-              className: 'feature7-block-title lesbpbvrd5-editor_css',
+              className: 'feature7-block-title lesbp3bmdgf-editor_css',
               children: (
                 <span>
-                  <p>省级平台经验</p>
+                  <span>
+                    <p>文旅全产业链</p>
+                  </span>
                 </span>
               ),
             },
@@ -402,9 +463,15 @@ export const Feature70DataSource = {
               className: 'feature7-block-content',
               children: (
                 <span>
-                  <p>
-                    已经成功实施上海、山西、湖北等省级智慧文旅平台项目，投入经济效果良好，也更有省级平台项目效果把控经验、冲刺经验。
-                  </p>
+                  <span>
+                    <span>
+                      <span>
+                        <p>
+                          所属集团深耕旅游行业近20年，曾多次荣获中国旅游集团20强，覆盖文旅全产业链。至今已累计服务3000+品牌项目，足迹遍及全国。
+                        </p>
+                      </span>
+                    </span>
+                  </span>
                 </span>
               ),
             },
@@ -414,26 +481,44 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block4',
+        name: 'block~m4qh1jiqo5h',
         className: 'feature7-block',
         children: {
-          className: 'feature7-block-group lesboct0o-editor_css',
+          className: 'feature7-block-group',
           children: [
             {
               name: 'image',
-              className: 'feature7-block-image',
+              className: 'feature7-block-image lesbp42lh3f-editor_css',
               children:
                 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
             },
             {
               name: 'title',
-              className: 'feature7-block-title',
-              children: '身份证',
+              className: 'feature7-block-title lesbp3bmdgf-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>5A景区数智经验</p>
+                    </span>
+                  </span>
+                </span>
+              ),
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <p>
+                        以5A景区天山天池为基础，成功实施大型文旅目的地数字化转型，大幅提升文旅目的地营收规模。
+                      </p>
+                    </span>
+                  </span>
+                </span>
+              ),
             },
           ],
         },
@@ -441,26 +526,46 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block5',
+        name: 'block~m4qh1m7sp0i',
         className: 'feature7-block',
         children: {
-          className: 'feature7-block-group lesbwr4inel-editor_css',
+          className: 'feature7-block-group',
           children: [
             {
               name: 'image',
-              className: 'feature7-block-image',
+              className: 'feature7-block-image lesbp42lh3f-editor_css',
               children:
                 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
             },
             {
               name: 'title',
-              className: 'feature7-block-title',
-              children: '身份证',
+              className: 'feature7-block-title lesbp3bmdgf-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <p>省级平台经验</p>
+                  </span>
+                </span>
+              ),
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <span>
+                          <p>
+                            已经成功实施上海、山西、湖北等省级智慧文旅平台项目，投入经济效果良好，也更有省级平台项目效果把控经验、冲刺经验。
+                          </p>
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
             },
           ],
         },
@@ -468,53 +573,44 @@ export const Feature70DataSource = {
       {
         md: 6,
         xs: 24,
-        name: 'block6',
+        name: 'block~m4qh1nf5rsh',
         className: 'feature7-block',
         children: {
-          className: 'feature7-block-group lesbwsw68bn-editor_css',
+          className: 'feature7-block-group',
           children: [
             {
               name: 'image',
-              className: 'feature7-block-image',
+              className: 'feature7-block-image lesbp42lh3f-editor_css',
               children:
                 'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
             },
             {
               name: 'title',
-              className: 'feature7-block-title',
-              children: '身份证',
+              className: 'feature7-block-title lesbp3bmdgf-editor_css',
+              children: (
+                <span>
+                  <span>
+                    <p>头部OTA经验</p>
+                  </span>
+                </span>
+              ),
             },
             {
               name: 'content',
               className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
-            },
-          ],
-        },
-      },
-      {
-        md: 6,
-        xs: 24,
-        name: 'block7',
-        className: 'feature7-block',
-        children: {
-          className: 'feature7-block-group lesbwusjl1-editor_css',
-          children: [
-            {
-              name: 'image',
-              className: 'feature7-block-image',
-              children:
-                'https://gw.alipayobjects.com/zos/basement_prod/e339fc34-b022-4cde-9607-675ca9e05231.svg',
-            },
-            {
-              name: 'title',
-              className: 'feature7-block-title',
-              children: '身份证',
-            },
-            {
-              name: 'content',
-              className: 'feature7-block-content',
-              children: '识别身份证正反面姓名、身份证号、发证机关等相关信息',
+              children: (
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>
+                          超过2亿用户规模、超过10万合作商家、超过9亿下载、遍及全国110子公司高频交易系统承载和运营经验。
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              ),
             },
           ],
         },
@@ -632,7 +728,7 @@ export const Content120DataSource = {
     ],
   },
 };
-export const Footer10DataSource = {
+export const Footer11DataSource = {
   wrapper: { className: 'home-page-wrapper footer1-wrapper' },
   OverPack: { className: 'footer1', playScale: 0.2 },
   block: {
@@ -643,18 +739,21 @@ export const Footer10DataSource = {
         name: 'block0',
         xs: 24,
         md: 6,
-        className: 'block lef10cftr1-editor_css',
+        className: 'block',
         title: {
           className: 'logo',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg',
+          children: 'https://e.joyuai.com/joyuai/pic_wxgzh.png',
         },
         childWrapper: {
           className: 'slogan',
           children: [
             {
               name: 'content0',
-              children: 'Animation specification and components of Ant Design.',
+              children: (
+                <span>
+                  <p>&nbsp;</p>
+                </span>
+              ),
             },
           ],
         },
@@ -663,45 +762,35 @@ export const Footer10DataSource = {
         name: 'block1',
         xs: 24,
         md: 6,
-        className: 'block lefgbyyasn-editor_css',
+        className: 'block m4qo0zblw5q-editor_css',
         title: {
           children: (
             <span>
               <p>上海景宇宙智能科技集团有限公司</p>
             </span>
           ),
-          className: 'lef3kfr843g-editor_css',
+          className: 'm4qo0tt6zgp-editor_css',
         },
         childWrapper: {
           children: [
-            {
-              name: 'content~lew6hcwit3b',
-              className: 'lew6hhy0vj-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <p>
-                      联系地址：上海市嘉定区景域大道88号<br />
-                    </p>
-                  </span>
-                </span>
-              ),
-            },
             {
               name: 'link0',
               href: '#',
               children: (
                 <span>
-                  <p>联系电话：021-60561616</p>
+                  <span>
+                    <p>联系地址：上海市嘉定区景域大道88号</p>
+                  </span>
                 </span>
               ),
+              className: 'm4qo89wytga-editor_css',
             },
             {
               name: 'link1',
               href: '#',
               children: (
                 <span>
-                  <p>电子邮箱：mkt@joyuai.com</p>
+                  <p>微信公众号：景宇智能</p>
                 </span>
               ),
             },
@@ -710,43 +799,19 @@ export const Footer10DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>合作热线：021-51212088-3335</p>
+                  <p>电子邮箱：mkt@joyuai.com</p>
                 </span>
               ),
-              className: 'lefgalihfqd-editor_css',
             },
             {
               name: 'link3',
               href: '#',
-              children: '参考指南',
-              className: 'lef3leoop1r-editor_css',
+              children: (
+                <span>
+                  <p>合作热线：021-51212088-6309</p>
+                </span>
+              ),
             },
-          ],
-        },
-      },
-      {
-        name: 'block2',
-        xs: 24,
-        md: 6,
-        className: 'block lef3gr6iy2p-editor_css',
-        title: { children: '关于' },
-        childWrapper: {
-          children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
-            { href: '#', name: 'link1', children: '联系我们' },
-          ],
-        },
-      },
-      {
-        name: 'block3',
-        xs: 24,
-        md: 6,
-        className: 'block lef3gi5b85b-editor_css',
-        title: { children: '资源' },
-        childWrapper: {
-          children: [
-            { href: '#', name: 'link0', children: 'Ant Design' },
-            { href: '#', name: 'link1', children: 'Ant Motion' },
           ],
         },
       },
@@ -760,11 +825,21 @@ export const Footer10DataSource = {
       <span>
         <span>
           <span>
-            Copyright©2023,{' '}
-            <a href="https://www.joyuai.com" target="_blank">
-              www.joyuai.com
-            </a>{' '}
-            ｜ 沪ICP备19031977号-1<br />
+            <span>
+              <span>
+                <span>
+                  <span>
+                    <span>
+                      <span>
+                        <p>
+                          Copyright©2023, www.joyuai.com｜ 沪ICP备19031977号-1
+                        </p>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </span>
           </span>
         </span>
       </span>

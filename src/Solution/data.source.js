@@ -362,32 +362,98 @@ export const Content50DataSource = {
           },
         },
       },
+      {
+        name: 'block~m4qoyqwkfo',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children: 'https://e.joyuai.com/joyuai/pic_solution_11@2x.png',
+          },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>在线选房 无接触入住 降低人工成本</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block~m4qoytftb1f',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children: 'https://e.joyuai.com/joyuai/pic_solution_12@2x.png',
+          },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>在线选房 无接触入住 降低人工成本</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
+      {
+        name: 'block~m4qoyva973',
+        className: 'block',
+        md: 6,
+        xs: 24,
+        children: {
+          wrapper: { className: 'content5-block-content' },
+          img: {
+            children: 'https://e.joyuai.com/joyuai/pic_solution_13@2x.png',
+          },
+          content: {
+            children: (
+              <span>
+                <span>
+                  <p>在线选房 无接触入住 降低人工成本</p>
+                </span>
+              </span>
+            ),
+          },
+        },
+      },
     ],
   },
 };
-export const Footer10DataSource = {
+export const Footer11DataSource = {
   wrapper: { className: 'home-page-wrapper footer1-wrapper' },
   OverPack: { className: 'footer1', playScale: 0.2 },
   block: {
-    className: 'home-page lescjbp4lvj-editor_css',
+    className: 'home-page',
     gutter: 0,
     children: [
       {
         name: 'block0',
         xs: 24,
         md: 6,
-        className: 'block lef1eu1cjt6-editor_css',
+        className: 'block',
         title: {
           className: 'logo',
-          children:
-            'https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg',
+          children: 'https://e.joyuai.com/joyuai/pic_wxgzh.png',
         },
         childWrapper: {
           className: 'slogan',
           children: [
             {
               name: 'content0',
-              children: 'Animation specification and components of Ant Design.',
+              children: (
+                <span>
+                  <p>&nbsp;</p>
+                </span>
+              ),
             },
           ],
         },
@@ -400,45 +466,29 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <span>
-                <p>上海景宇宙智能科技集团有限公司</p>
-              </span>
+              <p>上海景宇宙智能科技集团有限公司</p>
             </span>
           ),
-          className: 'lef1hh63x3-editor_css',
+          className: 'm4qodt78sem-editor_css',
         },
         childWrapper: {
           children: [
-            {
-              name: 'content~lew6kclb316',
-              className: 'lew6kgczr88-editor_css',
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>
-                        <u>联系地址：上海市嘉定区景域大道88号</u>
-                      </p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
             {
               name: 'link0',
               href: '#',
               children: (
                 <span>
-                  <p>联系电话：021-60561616</p>
+                  <p>联系地址：上海市嘉定区景域大道88号</p>
                 </span>
               ),
+              className: 'm4qodpnpfjf-editor_css',
             },
             {
               name: 'link1',
               href: '#',
               children: (
                 <span>
-                  <p>电子邮箱：mkt@joyuai.com</p>
+                  <p>微信公众号：景宇智能</p>
                 </span>
               ),
             },
@@ -447,55 +497,19 @@ export const Footer10DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>合作热线：021-51212088-3335</p>
+                  <p>电子邮箱：mkt@joyuai.com</p>
                 </span>
               ),
             },
             {
               name: 'link3',
               href: '#',
-              children: '参考指南',
-              className: 'lef1jzhlzb-editor_css',
+              children: (
+                <span>
+                  <p>合作热线：021-51212088-6309</p>
+                </span>
+              ),
             },
-          ],
-        },
-      },
-      {
-        name: 'block2',
-        xs: 24,
-        md: 6,
-        className: 'block lef1hczz4xu-editor_css',
-        title: { children: '关于' },
-        childWrapper: {
-          children: [
-            { href: '#', name: 'link0', children: 'FAQ' },
-            { href: '#', name: 'link1', children: '联系我们' },
-          ],
-        },
-      },
-      {
-        name: 'block3',
-        xs: 24,
-        md: 6,
-        className: 'block lef1hfljpm-editor_css',
-        title: { children: '资源' },
-        childWrapper: {
-          children: [
-            { href: '#', name: 'link0', children: 'Ant Design' },
-            { href: '#', name: 'link1', children: 'Ant Motion' },
-          ],
-        },
-      },
-      {
-        name: 'block~lefbz2pe87u',
-        xs: 24,
-        md: 6,
-        className: 'block lef1hfljpm-editor_css',
-        title: { children: '资源' },
-        childWrapper: {
-          children: [
-            { href: '#', name: 'link0', children: 'Ant Design' },
-            { href: '#', name: 'link1', children: 'Ant Motion' },
           ],
         },
       },
@@ -507,13 +521,7 @@ export const Footer10DataSource = {
     className: 'copyright',
     children: (
       <span>
-        <span>
-          Copyright©2023,{' '}
-          <a href target="_blank">
-            www.joyuai.com
-          </a>{' '}
-          ｜ 沪ICP备19031977号-1<br />
-        </span>
+        <p>Copyright©2023, www.joyuai.com ｜ 沪ICP备19031977号-1</p>
       </span>
     ),
   },

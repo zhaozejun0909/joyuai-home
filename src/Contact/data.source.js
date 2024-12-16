@@ -126,7 +126,7 @@ export const Feature10DataSource = {
     xs: 24,
   },
   img: {
-    children: 'https://e.joyuai.com/joyuai/logo_vertical.png',
+    children: 'https://e.joyuai.com/joyuai/pic_wxgzh.png',
     className: 'lef2f61oi9i-editor_css',
   },
   textWrapper: {
@@ -149,14 +149,18 @@ export const Feature10DataSource = {
         <span>
           <span>
             <span>
-              <p>联系地址：上海市嘉定区景域大道88号</p>
-              <p>联系电话：021-60561616</p>
-              <p>
-                电子邮箱：mkt@joyuai.com<br />
-              </p>
-              <p>
-                合作热线：021-51212088-3335<br />
-              </p>
+              <span>
+                <span>
+                  <span>
+                    <p>联系地址：上海市嘉定区景域大道88号</p>
+                    <p>微信公众号：景宇智能</p>
+                    <p>
+                      电子邮箱：mkt@joyuai.com<br />
+                    </p>
+                    <p>合作热线：021-51212088-6309</p>
+                  </span>
+                </span>
+              </span>
             </span>
           </span>
         </span>
