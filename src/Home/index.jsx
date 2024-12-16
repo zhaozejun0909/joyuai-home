@@ -10,6 +10,7 @@ import Content5 from './Content5';
 import Content13 from './Content13';
 import Footer1 from './Footer1';
 import Point from './Point';
+import addAIChatbot from '../AiRobot/dify';
 import {
   Nav00DataSource,
   Banner00DataSource,
@@ -19,6 +20,7 @@ import {
   Footer12DataSource,
 } from './data.source';
 import './less/antMotionStyle.less';
+import '../AiRobot/iframe.less';
 
 let isMobile;
 enquireScreen((b) => {
@@ -66,6 +68,7 @@ export default class Home extends React.Component {
       }, 500);
     }
     /* 如果不是 dva 2.0 请删除 end */
+    addAIChatbot();
   }
 
   render() {
